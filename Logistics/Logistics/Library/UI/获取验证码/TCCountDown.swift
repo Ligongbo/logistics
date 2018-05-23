@@ -13,8 +13,8 @@ class TCCountDown {
     var countdownTimer: Timer?
     private var remainingSeconds: Int = 0 {
         willSet {
-//            getCodeButton.backgroundColor = UIColor(hexString:"A9B2BD")
-            getCodeButton.setTitle("\(newValue)S", for: .normal)
+            getCodeButton.backgroundColor = UIColor(hexString:"A9B2BD")
+            getCodeButton.setTitle("(\(newValue))后重新获取", for: .normal)
             if newValue <= 0 {
                 getCodeButton.backgroundColor = UIColor(hexString: "00B7FB")
                 getCodeButton.setTitle("获取验证码", for: .normal)

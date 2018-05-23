@@ -101,7 +101,7 @@ let StaticProtocoHtml = "resources/common/user_agreement.html"
 //var BaseImgUrl = "http://high.demo.huihaiedu.cn:8080/eedu_base/"//础图片地址
 //var Protocolhtml = "http://high.demo.huihaiedu.cn:8080/static/resources/user_agreement.html"//用户隐私协议
 //测试服务器
-var HostAddress = "http://192.168.13.2/high_web/"
+var HostAddress = "http://192.168.13.2/high_web/111"
 
 
 

@@ -268,6 +268,10 @@
 		E342AEDB20B501A600699CAF /* NSMutableDictionary+LH.m in Sources */ = {isa = PBXBuildFile; fileRef = E342ABBB20B501A400699CAF /* NSMutableDictionary+LH.m */; };
 		E342AEDC20B501A600699CAF /* NSData+LH.m in Sources */ = {isa = PBXBuildFile; fileRef = E342ABBC20B501A400699CAF /* NSData+LH.m */; };
 		E342AEDD20B501A600699CAF /* UIColor+LH.m in Sources */ = {isa = PBXBuildFile; fileRef = E342ABBD20B501A400699CAF /* UIColor+LH.m */; };
+		E3C2978D20B5512D0067FF54 /* CodeSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C2978C20B5512D0067FF54 /* CodeSuccessView.swift */; };
+		E3C2978F20B551380067FF54 /* CodeSuccessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C2978E20B551380067FF54 /* CodeSuccessView.xib */; };
+		E3C2979320B55CD20067FF54 /* AutoLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C2979120B55CD20067FF54 /* AutoLoginViewController.swift */; };
+		E3C2979420B55CD20067FF54 /* AutoLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C2979220B55CD20067FF54 /* AutoLoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -611,6 +615,10 @@
 		E342ABBB20B501A400699CAF /* NSMutableDictionary+LH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LH.m"; sourceTree = "<group>"; };
 		E342ABBC20B501A400699CAF /* NSData+LH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+LH.m"; sourceTree = "<group>"; };
 		E342ABBD20B501A400699CAF /* UIColor+LH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LH.m"; sourceTree = "<group>"; };
+		E3C2978C20B5512D0067FF54 /* CodeSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSuccessView.swift; sourceTree = "<group>"; };
+		E3C2978E20B551380067FF54 /* CodeSuccessView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodeSuccessView.xib; sourceTree = "<group>"; };
+		E3C2979120B55CD20067FF54 /* AutoLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLoginViewController.swift; sourceTree = "<group>"; };
+		E3C2979220B55CD20067FF54 /* AutoLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoLoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -730,6 +738,7 @@
 		E342A6F720B501A300699CAF /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				E3C2978320B53DBF0067FF54 /* Tip */,
 				E342A6F820B501A300699CAF /* 多张图片展示 */,
 				E342A6FC20B501A300699CAF /* 弹出式选择列表 */,
 				E342A70120B501A300699CAF /* 获取验证码 */,
@@ -1649,6 +1658,7 @@
 		E342A84520B501A300699CAF /* viewController */ = {
 			isa = PBXGroup;
 			children = (
+				E3C2979020B55CB40067FF54 /* 自动登录 */,
 				E342A84620B501A300699CAF /* 设置新密码 */,
 				E342A84A20B501A300699CAF /* 忘记密码 */,
 			);
@@ -1658,9 +1668,9 @@
 		E342A84620B501A300699CAF /* 设置新密码 */ = {
 			isa = PBXGroup;
 			children = (
-				E342A84720B501A300699CAF /* SettingNewPasswordViewController.xib */,
 				E342A84820B501A300699CAF /* SettingNewPasswordDataController.swift */,
 				E342A84920B501A300699CAF /* SettingNewPasswordViewController.swift */,
+				E342A84720B501A300699CAF /* SettingNewPasswordViewController.xib */,
 			);
 			path = "设置新密码";
 			sourceTree = "<group>";
@@ -1913,6 +1923,24 @@
 			path = SRC;
 			sourceTree = "<group>";
 		};
+		E3C2978320B53DBF0067FF54 /* Tip */ = {
+			isa = PBXGroup;
+			children = (
+				E3C2978C20B5512D0067FF54 /* CodeSuccessView.swift */,
+				E3C2978E20B551380067FF54 /* CodeSuccessView.xib */,
+			);
+			path = Tip;
+			sourceTree = "<group>";
+		};
+		E3C2979020B55CB40067FF54 /* 自动登录 */ = {
+			isa = PBXGroup;
+			children = (
+				E3C2979120B55CD20067FF54 /* AutoLoginViewController.swift */,
+				E3C2979220B55CD20067FF54 /* AutoLoginViewController.xib */,
+			);
+			path = "自动登录";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2049,6 +2077,7 @@
 				E342AC5E20B501A500699CAF /* ConfirmLoginSelectStrOrSchoolTableViewCell.xib in Resources */,
 				E3429EE120B4FE6500699CAF /* LaunchScreen.storyboard in Resources */,
 				E342AC4E20B501A500699CAF /* ScheduleIndexTableViewCell.xib in Resources */,
+				E3C2979420B55CD20067FF54 /* AutoLoginViewController.xib in Resources */,
 				E342AC8320B501A500699CAF /* LoginViewController.xib in Resources */,
 				E342AC3620B501A500699CAF /* AboutUsViewController.xib in Resources */,
 				E342ABF320B501A500699CAF /* NoDataView.xib in Resources */,
@@ -2061,6 +2090,7 @@
 				E342AC0420B501A500699CAF /* HSPopupSelectDayView.xib in Resources */,
 				E342AC3420B501A500699CAF /* MineSelectStudentMultipleViewController.xib in Resources */,
 				E342AC7C20B501A500699CAF /* ChangeAreaViewController.xib in Resources */,
+				E3C2978F20B551380067FF54 /* CodeSuccessView.xib in Resources */,
 				E342AC5F20B501A500699CAF /* BindAccountShowSchoolTableViewCell.xib in Resources */,
 				E342AC2820B501A500699CAF /* SelectSchoolTableViewCell.xib in Resources */,
 				E342AC0320B501A500699CAF /* HSPopupSelectDayView示例代码.rtf in Resources */,
@@ -2274,6 +2304,7 @@
 				E342AC4820B501A500699CAF /* UploadHeadPhotoDataController.swift in Sources */,
 				E342AC9C20B501A500699CAF /* UploadFileDataModel.swift in Sources */,
 				E342ABFD20B501A500699CAF /* UIView+TYAutoLayout.m in Sources */,
+				E3C2978D20B5512D0067FF54 /* CodeSuccessView.swift in Sources */,
 				E342ABC520B501A400699CAF /* TCCountDown.swift in Sources */,
 				E342ABC620B501A400699CAF /* LRSwitchStudentView.swift in Sources */,
 				E342AC5820B501A500699CAF /* ConfirmLoginPwdTableViewCell.swift in Sources */,
@@ -2305,6 +2336,7 @@
 				E342ABF420B501A500699CAF /* XHLTagLabelsLayout.m in Sources */,
 				E342AC0C20B501A500699CAF /* LHHTTPClient.swift in Sources */,
 				E342AC8120B501A500699CAF /* LanchImageViewController.swift in Sources */,
+				E3C2979320B55CD20067FF54 /* AutoLoginViewController.swift in Sources */,
 				E342AC1120B501A500699CAF /* SBJsonStreamParser.m in Sources */,
 				E342AC7120B501A500699CAF /* UserModel.swift in Sources */,
 				E342AC4520B501A500699CAF /* MineSelectSchoolViewController.swift in Sources */,

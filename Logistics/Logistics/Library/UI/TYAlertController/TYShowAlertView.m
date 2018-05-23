@@ -165,7 +165,8 @@
 - (void)show
 {
     if (self.superview == nil) {
-        [kCurrentWindow addSubview:self];
+//        [kCurrentWindow addSubview:self];
+        [UIApplication.sharedApplication.keyWindow addSubview:self];
     }
     self.alpha = 0;
     _alertView.transform = CGAffineTransformScale(_alertView.transform,0.1,0.1);

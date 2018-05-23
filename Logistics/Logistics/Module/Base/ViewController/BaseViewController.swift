@@ -70,7 +70,23 @@ extension BaseViewController{
         vc.senderParam = sender
         vc.dismissBlock = completion
         vc.hidesBottomBarWhenPushed = true
-        vc.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage.loadImage("arrow_back"), style: UIBarButtonItemStyle.plain, target: vc, action: #selector(vc.back))
+//        vc.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage.loadImage("arrow_back"), style: UIBarButtonItemStyle.plain, target: vc, action: #selector(vc.back))
+        let button =   UIButton(type: .system)
+        button.frame = CGRect(x:0, y:0, width:10, height:30)
+        button.setImage(UIImage(named:"arrow_back"), for: .normal)
+        button.setTitle("返回", for: .normal)
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 14)
+        button.sizeToFit()
+        button.addTarget(self, action: #selector(vc.back), for: .touchUpInside)
+        let leftBarBtn = UIBarButtonItem(customView: button)
+        //用于消除左边空隙，要不然按钮顶不到最前面
+        let spacer = UIBarButtonItem(barButtonSystemItem: .fixedSpace, target: nil,
+                                     action: nil)
+        spacer.width = -5;
+        vc.navigationItem.leftBarButtonItems = [spacer,leftBarBtn]
+        
+        
+        
         navigationController?.pushViewController(vc, animated: true)
     }
     @objc func back(){
