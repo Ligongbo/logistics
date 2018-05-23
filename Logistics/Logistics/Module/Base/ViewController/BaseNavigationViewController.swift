@@ -17,7 +17,8 @@ class BaseNavigationViewController: UINavigationController {
         //TODO:根据实际样式编写
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white,
                                                             NSAttributedStringKey.font: UIFont.systemFont(ofSize: 18)]
-        UINavigationBar.appearance().barTintColor = UIColor(hexString: "008FF5")
+        UINavigationBar.appearance().barTintColor = UIColor(hexString: "00BBF7")
+//        UINavigationBar.appearance().barTintColor = UIColor.init(patternImage: UIImage.init(named: "logo")!)
         UINavigationBar.appearance().tintColor = UIColor.white
         UINavigationBar.appearance().isTranslucent = false
     }

@@ -1631,8 +1631,8 @@
 			children = (
 				E342A83F20B501A300699CAF /* LanchImageViewController.swift */,
 				E342A84020B501A300699CAF /* LoginDataController.swift */,
-				E342A84120B501A300699CAF /* LoginViewController.xib */,
 				E342A84220B501A300699CAF /* LoginViewController.swift */,
+				E342A84120B501A300699CAF /* LoginViewController.xib */,
 				E342A84320B501A300699CAF /* LanchImageViewController.xib */,
 			);
 			path = "登录";
@@ -1668,9 +1668,9 @@
 		E342A84A20B501A300699CAF /* 忘记密码 */ = {
 			isa = PBXGroup;
 			children = (
-				E342A84B20B501A300699CAF /* ForgetPwdViewController.xib */,
-				E342A84C20B501A300699CAF /* ForgetPwdViewController.swift */,
 				E342A84D20B501A300699CAF /* ForgetPwdDataController.swift */,
+				E342A84C20B501A300699CAF /* ForgetPwdViewController.swift */,
+				E342A84B20B501A300699CAF /* ForgetPwdViewController.xib */,
 			);
 			path = "忘记密码";
 			sourceTree = "<group>";
