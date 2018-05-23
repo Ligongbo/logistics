@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="SelectMultipleStudentTableViewCell" customModule="SeniorHighSchoolProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tHS-Kr-O5K">
+                        <rect key="frame" x="8" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="a60-JU-H1I"/>
+                            <constraint firstAttribute="width" constant="20" id="tXo-eS-ZMS"/>
+                        </constraints>
+                        <state key="normal" image="main_MutiCheck_Off"/>
+                        <state key="selected" image="main_MutiCheck_On"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTF-Jm-fus">
+                        <rect key="frame" x="32" y="22" width="280" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gTF-Jm-fus" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="66E-HG-afI"/>
+                    <constraint firstAttribute="trailing" secondItem="gTF-Jm-fus" secondAttribute="trailing" constant="8" id="7ZZ-uM-5ov"/>
+                    <constraint firstItem="tHS-Kr-O5K" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="8Js-Br-vDI"/>
+                    <constraint firstItem="gTF-Jm-fus" firstAttribute="leading" secondItem="tHS-Kr-O5K" secondAttribute="trailing" constant="4" id="rNd-Mw-h5w"/>
+                    <constraint firstItem="tHS-Kr-O5K" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="rfX-dX-J37"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="nameLabel" destination="gTF-Jm-fus" id="q9Y-Sv-Kmj"/>
+                <outlet property="selectButton" destination="tHS-Kr-O5K" id="daJ-Wt-Yu0"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="main_MutiCheck_Off" width="24" height="24"/>
+        <image name="main_MutiCheck_On" width="24" height="24"/>
+    </resources>
+</document>

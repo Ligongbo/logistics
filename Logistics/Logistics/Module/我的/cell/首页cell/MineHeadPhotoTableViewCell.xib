@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="267" id="KGk-i7-Jjw" customClass="MineHeadPhotoTableViewCell" customModule="SeniorHighSchoolProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="262"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="261.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Lq-F7-FLH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="8"/>
+                        <color key="backgroundColor" red="0.92549019610000005" green="0.96078431369999995" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="NGF-AN-2BM"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cLR-Zv-ek1">
+                        <rect key="frame" x="0.0" y="254" width="320" height="8"/>
+                        <color key="backgroundColor" red="0.92549019610000005" green="0.96078431369999995" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="IJn-Be-nZk"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="SXC-rG-DHY">
+                        <rect key="frame" x="8" y="16" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="RGI-pw-eVY"/>
+                            <constraint firstAttribute="width" constant="40" id="ulX-pJ-3QV"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昵称" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFH-q7-4eK">
+                        <rect key="frame" x="56" y="28" width="254" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="cLR-Zv-ek1" secondAttribute="trailing" id="6bh-Ng-WRJ"/>
+                    <constraint firstItem="SXC-rG-DHY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="KQo-fR-uxg"/>
+                    <constraint firstItem="7Lq-F7-FLH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="VyX-JV-Ww8"/>
+                    <constraint firstAttribute="bottom" secondItem="cLR-Zv-ek1" secondAttribute="bottom" id="WWs-Pd-3r1"/>
+                    <constraint firstItem="cLR-Zv-ek1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="WgP-0f-f9T"/>
+                    <constraint firstItem="IFH-q7-4eK" firstAttribute="centerY" secondItem="SXC-rG-DHY" secondAttribute="centerY" id="YfP-eN-CLE"/>
+                    <constraint firstAttribute="trailing" secondItem="IFH-q7-4eK" secondAttribute="trailing" constant="10" id="aWZ-lG-Hit"/>
+                    <constraint firstItem="SXC-rG-DHY" firstAttribute="top" secondItem="7Lq-F7-FLH" secondAttribute="bottom" constant="8" id="eEM-gI-8UF"/>
+                    <constraint firstItem="cLR-Zv-ek1" firstAttribute="top" relation="greaterThanOrEqual" secondItem="SXC-rG-DHY" secondAttribute="bottom" constant="8" id="gqz-NL-VDc"/>
+                    <constraint firstItem="IFH-q7-4eK" firstAttribute="leading" secondItem="SXC-rG-DHY" secondAttribute="trailing" constant="8" id="i1A-hA-OZa"/>
+                    <constraint firstItem="7Lq-F7-FLH" firstAttribute="trailing" secondItem="cLR-Zv-ek1" secondAttribute="trailing" id="oT6-ga-Juq"/>
+                    <constraint firstItem="7Lq-F7-FLH" firstAttribute="leading" secondItem="cLR-Zv-ek1" secondAttribute="leading" id="vNu-PD-jcM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headImageView" destination="SXC-rG-DHY" id="9eX-8a-gBv"/>
+                <outlet property="nameLabel" destination="IFH-q7-4eK" id="oK2-JO-CH6"/>
+            </connections>
+            <point key="canvasLocation" x="-283" y="26"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="image-placeholder" width="48" height="48"/>
+    </resources>
+</document>

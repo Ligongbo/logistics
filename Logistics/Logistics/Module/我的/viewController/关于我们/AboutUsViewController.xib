@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutUsViewController" customModule="SeniorHighSchoolProject" customModuleProvider="target">
+            <connections>
+                <outlet property="versionLabel" destination="sYX-Iz-H4R" id="Ggm-NA-Qjv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="9H2-Bh-F8H">
+                    <rect key="frame" x="145" y="40" width="85" height="85"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="85" id="pcm-ph-dI0"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="慧知行高中版" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1u-Ac-jUw">
+                    <rect key="frame" x="135.5" y="133" width="104" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYX-Iz-H4R">
+                    <rect key="frame" x="187.5" y="162" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="吉林省慧海科技信息有限公司" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufo-5e-63X">
+                    <rect key="frame" x="95" y="596" width="186" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright©2015-2015 Huihai.All Rights Reserved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEp-zM-BHE">
+                    <rect key="frame" x="38" y="621" width="299" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jls-H1-SgF">
+                    <rect key="frame" x="157.5" y="526" width="60" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.71764705880000002" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="jCT-Na-Jpd"/>
+                        <constraint firstAttribute="height" constant="40" id="kqU-G7-XuO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="欢迎页">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="EfY-Ta-xRi"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OEp-zM-BHE" firstAttribute="top" secondItem="Ufo-5e-63X" secondAttribute="bottom" constant="8" id="DyI-Wb-XdA"/>
+                <constraint firstItem="Jls-H1-SgF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Eh0-wJ-9Nj"/>
+                <constraint firstItem="U1u-Ac-jUw" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="INX-Yx-iFC"/>
+                <constraint firstItem="9H2-Bh-F8H" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="JRB-1s-4vs"/>
+                <constraint firstItem="9H2-Bh-F8H" firstAttribute="width" secondItem="9H2-Bh-F8H" secondAttribute="height" multiplier="1:1" id="LZa-at-XUz"/>
+                <constraint firstAttribute="bottom" secondItem="OEp-zM-BHE" secondAttribute="bottom" constant="30" id="YEa-fl-cMA"/>
+                <constraint firstItem="Ufo-5e-63X" firstAttribute="top" secondItem="Jls-H1-SgF" secondAttribute="bottom" constant="30" id="YGr-kk-gAx"/>
+                <constraint firstItem="9H2-Bh-F8H" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gLQ-IH-1ZV"/>
+                <constraint firstItem="Ufo-5e-63X" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jIX-b0-XHc"/>
+                <constraint firstItem="sYX-Iz-H4R" firstAttribute="top" secondItem="U1u-Ac-jUw" secondAttribute="bottom" constant="8" id="vSu-Nd-Olq"/>
+                <constraint firstItem="OEp-zM-BHE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="vb1-Xq-8vt"/>
+                <constraint firstItem="U1u-Ac-jUw" firstAttribute="top" secondItem="9H2-Bh-F8H" secondAttribute="bottom" constant="8" id="xyx-lZ-YVX"/>
+                <constraint firstItem="sYX-Iz-H4R" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yJa-1U-3Yk"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="123.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="60" height="60"/>
+    </resources>
+</document>

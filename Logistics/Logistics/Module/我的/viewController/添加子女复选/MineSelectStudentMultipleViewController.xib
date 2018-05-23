@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MineSelectStudentMultipleViewController" customModule="SeniorHighSchoolProject" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="PKP-s2-kIP" id="xjE-eb-qlv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PKP-s2-kIP">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                    <color key="backgroundColor" red="0.92549019610000005" green="0.96078431369999995" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J3N-tc-dxB">
+                    <rect key="frame" x="15" y="627" width="345" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.71764705880000002" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="eHo-9a-Sbz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="确认">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="finishButtonClick:" destination="-1" eventType="touchUpInside" id="hwk-uQ-P8U"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PKP-s2-kIP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9RX-t3-gpF"/>
+                <constraint firstAttribute="trailing" secondItem="J3N-tc-dxB" secondAttribute="trailing" constant="15" id="Jku-xI-tt8"/>
+                <constraint firstAttribute="bottom" secondItem="PKP-s2-kIP" secondAttribute="bottom" constant="49" id="bAk-OR-Ce6"/>
+                <constraint firstAttribute="trailing" secondItem="PKP-s2-kIP" secondAttribute="trailing" id="ePk-md-Gdj"/>
+                <constraint firstItem="PKP-s2-kIP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hoA-7V-b4I"/>
+                <constraint firstItem="J3N-tc-dxB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="que-dZ-oxW"/>
+                <constraint firstAttribute="bottom" secondItem="J3N-tc-dxB" secondAttribute="bottom" constant="10" id="sfU-R4-ros"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

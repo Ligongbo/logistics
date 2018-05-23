@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectMultipleStudentViewController" customModule="SeniorHighSchoolProject" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="atn-Ux-aYB" id="N2u-Al-2fO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="atn-Ux-aYB">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                    <color key="backgroundColor" red="0.92549019610000005" green="0.96078431369999995" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </tableView>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcI-wS-hcX">
+                    <rect key="frame" x="15" y="627" width="345" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.71764705880000002" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="AjE-wb-cLX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="finishButtonClick:" destination="-1" eventType="touchUpInside" id="ncF-L7-ftI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.92549019610000005" green="0.96078431369999995" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="IcI-wS-hcX" secondAttribute="bottom" constant="10" id="32i-ii-AlG"/>
+                <constraint firstAttribute="trailing" secondItem="atn-Ux-aYB" secondAttribute="trailing" id="AQh-uL-nRS"/>
+                <constraint firstAttribute="bottom" secondItem="atn-Ux-aYB" secondAttribute="bottom" constant="49" id="K4v-tM-v8I"/>
+                <constraint firstAttribute="trailing" secondItem="IcI-wS-hcX" secondAttribute="trailing" constant="15" id="X5e-E8-bim"/>
+                <constraint firstItem="atn-Ux-aYB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="X8I-Ur-KWJ"/>
+                <constraint firstItem="atn-Ux-aYB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cpU-90-NRi"/>
+                <constraint firstItem="IcI-wS-hcX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="k3g-dZ-9vB"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
