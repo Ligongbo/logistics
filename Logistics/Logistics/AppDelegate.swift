@@ -52,7 +52,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //隐藏键盘工具条
         keyManager()
         
-
+        UITableView.appearance().estimatedRowHeight = UIScreen.main.bounds.size.height
         
         
         

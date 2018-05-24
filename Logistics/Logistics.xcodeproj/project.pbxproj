@@ -164,17 +164,6 @@
 		E342AC6220B501A500699CAF /* BindAccountDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A81120B501A300699CAF /* BindAccountDataModel.swift */; };
 		E342AC6320B501A500699CAF /* ConfirmLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E342A81420B501A300699CAF /* ConfirmLoginView.xib */; };
 		E342AC6420B501A500699CAF /* ConfirmLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A81520B501A300699CAF /* ConfirmLoginView.swift */; };
-		E342AC6520B501A500699CAF /* BindAccountShowStudentOrSchoolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E342A81820B501A300699CAF /* BindAccountShowStudentOrSchoolViewController.xib */; };
-		E342AC6620B501A500699CAF /* BindAccountShowStudentOrSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A81920B501A300699CAF /* BindAccountShowStudentOrSchoolViewController.swift */; };
-		E342AC6720B501A500699CAF /* BindAccountShowStudentOrSchoolDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A81A20B501A300699CAF /* BindAccountShowStudentOrSchoolDataController.swift */; };
-		E342AC6820B501A500699CAF /* RegisterSettingNewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A81C20B501A300699CAF /* RegisterSettingNewPasswordViewController.swift */; };
-		E342AC6920B501A500699CAF /* RegisterSettingNewPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E342A81D20B501A300699CAF /* RegisterSettingNewPasswordViewController.xib */; };
-		E342AC6A20B501A500699CAF /* BindAccountDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A81F20B501A300699CAF /* BindAccountDataController.swift */; };
-		E342AC6B20B501A500699CAF /* BindAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E342A82020B501A300699CAF /* BindAccountViewController.xib */; };
-		E342AC6C20B501A500699CAF /* BindAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A82120B501A300699CAF /* BindAccountViewController.swift */; };
-		E342AC6D20B501A500699CAF /* ParentRegisterDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A82320B501A300699CAF /* ParentRegisterDataController.swift */; };
-		E342AC6E20B501A500699CAF /* ParentRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A82420B501A300699CAF /* ParentRegisterViewController.swift */; };
-		E342AC6F20B501A500699CAF /* ParentRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E342A82520B501A300699CAF /* ParentRegisterViewController.xib */; };
 		E342AC7020B501A500699CAF /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A82820B501A300699CAF /* LoginModel.swift */; };
 		E342AC7120B501A500699CAF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A82920B501A300699CAF /* UserModel.swift */; };
 		E342AC7220B501A500699CAF /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A82A20B501A300699CAF /* StudentModel.swift */; };
@@ -272,6 +261,23 @@
 		E3C2978F20B551380067FF54 /* CodeSuccessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C2978E20B551380067FF54 /* CodeSuccessView.xib */; };
 		E3C2979320B55CD20067FF54 /* AutoLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C2979120B55CD20067FF54 /* AutoLoginViewController.swift */; };
 		E3C2979420B55CD20067FF54 /* AutoLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C2979220B55CD20067FF54 /* AutoLoginViewController.xib */; };
+		E3C2979820B565A50067FF54 /* PersonRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C2979620B565A50067FF54 /* PersonRegisterViewController.swift */; };
+		E3C2979920B565A50067FF54 /* PersonRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C2979720B565A50067FF54 /* PersonRegisterViewController.xib */; };
+		E3C2979D20B565C40067FF54 /* CompanyRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C2979B20B565C40067FF54 /* CompanyRegisterViewController.swift */; };
+		E3C2979E20B565C40067FF54 /* CompanyRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C2979C20B565C40067FF54 /* CompanyRegisterViewController.xib */; };
+		E3C297A020B56B010067FF54 /* PersonRegisterDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C2979F20B56B010067FF54 /* PersonRegisterDataController.swift */; };
+		E3C58EFA20B58650001BEBB7 /* PersonMessageDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C58EF920B58650001BEBB7 /* PersonMessageDataController.swift */; };
+		E3C58EFD20B58663001BEBB7 /* PersonMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C58EFB20B58663001BEBB7 /* PersonMessageViewController.swift */; };
+		E3C58EFE20B58663001BEBB7 /* PersonMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58EFC20B58663001BEBB7 /* PersonMessageViewController.xib */; };
+		E3C58F0220B587B4001BEBB7 /* PersonMessageTipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C58F0020B587B4001BEBB7 /* PersonMessageTipTableViewCell.swift */; };
+		E3C58F0320B587B4001BEBB7 /* PersonMessageTipTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58F0120B587B4001BEBB7 /* PersonMessageTipTableViewCell.xib */; };
+		E3C58F0620B59295001BEBB7 /* PersonMessageInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C58F0420B59295001BEBB7 /* PersonMessageInputTableViewCell.swift */; };
+		E3C58F0720B59295001BEBB7 /* PersonMessageInputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58F0520B59295001BEBB7 /* PersonMessageInputTableViewCell.xib */; };
+		E3C58F0A20B592A1001BEBB7 /* PersonMessagePhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C58F0820B592A1001BEBB7 /* PersonMessagePhotoTableViewCell.swift */; };
+		E3C58F0B20B592A1001BEBB7 /* PersonMessagePhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58F0920B592A1001BEBB7 /* PersonMessagePhotoTableViewCell.xib */; };
+		E3C58F0E20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C58F0C20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.swift */; };
+		E3C58F0F20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58F0D20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib */; };
+		E3F9C34420B63A7600CE37AF /* PersonMessageMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9C34320B63A7600CE37AF /* PersonMessageMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -500,17 +506,6 @@
 		E342A81120B501A300699CAF /* BindAccountDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindAccountDataModel.swift; sourceTree = "<group>"; };
 		E342A81420B501A300699CAF /* ConfirmLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmLoginView.xib; sourceTree = "<group>"; };
 		E342A81520B501A300699CAF /* ConfirmLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmLoginView.swift; sourceTree = "<group>"; };
-		E342A81820B501A300699CAF /* BindAccountShowStudentOrSchoolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BindAccountShowStudentOrSchoolViewController.xib; sourceTree = "<group>"; };
-		E342A81920B501A300699CAF /* BindAccountShowStudentOrSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindAccountShowStudentOrSchoolViewController.swift; sourceTree = "<group>"; };
-		E342A81A20B501A300699CAF /* BindAccountShowStudentOrSchoolDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindAccountShowStudentOrSchoolDataController.swift; sourceTree = "<group>"; };
-		E342A81C20B501A300699CAF /* RegisterSettingNewPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterSettingNewPasswordViewController.swift; sourceTree = "<group>"; };
-		E342A81D20B501A300699CAF /* RegisterSettingNewPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterSettingNewPasswordViewController.xib; sourceTree = "<group>"; };
-		E342A81F20B501A300699CAF /* BindAccountDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindAccountDataController.swift; sourceTree = "<group>"; };
-		E342A82020B501A300699CAF /* BindAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BindAccountViewController.xib; sourceTree = "<group>"; };
-		E342A82120B501A300699CAF /* BindAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindAccountViewController.swift; sourceTree = "<group>"; };
-		E342A82320B501A300699CAF /* ParentRegisterDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentRegisterDataController.swift; sourceTree = "<group>"; };
-		E342A82420B501A300699CAF /* ParentRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentRegisterViewController.swift; sourceTree = "<group>"; };
-		E342A82520B501A300699CAF /* ParentRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentRegisterViewController.xib; sourceTree = "<group>"; };
 		E342A82820B501A300699CAF /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		E342A82920B501A300699CAF /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		E342A82A20B501A300699CAF /* StudentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
@@ -619,6 +614,23 @@
 		E3C2978E20B551380067FF54 /* CodeSuccessView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodeSuccessView.xib; sourceTree = "<group>"; };
 		E3C2979120B55CD20067FF54 /* AutoLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLoginViewController.swift; sourceTree = "<group>"; };
 		E3C2979220B55CD20067FF54 /* AutoLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoLoginViewController.xib; sourceTree = "<group>"; };
+		E3C2979620B565A50067FF54 /* PersonRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRegisterViewController.swift; sourceTree = "<group>"; };
+		E3C2979720B565A50067FF54 /* PersonRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonRegisterViewController.xib; sourceTree = "<group>"; };
+		E3C2979B20B565C40067FF54 /* CompanyRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyRegisterViewController.swift; sourceTree = "<group>"; };
+		E3C2979C20B565C40067FF54 /* CompanyRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyRegisterViewController.xib; sourceTree = "<group>"; };
+		E3C2979F20B56B010067FF54 /* PersonRegisterDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRegisterDataController.swift; sourceTree = "<group>"; };
+		E3C58EF920B58650001BEBB7 /* PersonMessageDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMessageDataController.swift; sourceTree = "<group>"; };
+		E3C58EFB20B58663001BEBB7 /* PersonMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMessageViewController.swift; sourceTree = "<group>"; };
+		E3C58EFC20B58663001BEBB7 /* PersonMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonMessageViewController.xib; sourceTree = "<group>"; };
+		E3C58F0020B587B4001BEBB7 /* PersonMessageTipTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMessageTipTableViewCell.swift; sourceTree = "<group>"; };
+		E3C58F0120B587B4001BEBB7 /* PersonMessageTipTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonMessageTipTableViewCell.xib; sourceTree = "<group>"; };
+		E3C58F0420B59295001BEBB7 /* PersonMessageInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMessageInputTableViewCell.swift; sourceTree = "<group>"; };
+		E3C58F0520B59295001BEBB7 /* PersonMessageInputTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonMessageInputTableViewCell.xib; sourceTree = "<group>"; };
+		E3C58F0820B592A1001BEBB7 /* PersonMessagePhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMessagePhotoTableViewCell.swift; sourceTree = "<group>"; };
+		E3C58F0920B592A1001BEBB7 /* PersonMessagePhotoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonMessagePhotoTableViewCell.xib; sourceTree = "<group>"; };
+		E3C58F0C20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMessageButtonTableViewCell.swift; sourceTree = "<group>"; };
+		E3C58F0D20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonMessageButtonTableViewCell.xib; sourceTree = "<group>"; };
+		E3F9C34320B63A7600CE37AF /* PersonMessageMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMessageMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1416,6 +1428,7 @@
 		E342A7FD20B501A300699CAF /* cell */ = {
 			isa = PBXGroup;
 			children = (
+				E3C58EFF20B5877A001BEBB7 /* 个人信息完善cell */,
 				E342A7FE20B501A300699CAF /* 确认登陆cell */,
 				E342A80120B501A300699CAF /* 显示子女 */,
 				E342A80420B501A300699CAF /* 绑定按钮 */,
@@ -1473,6 +1486,7 @@
 		E342A80D20B501A300699CAF /* model */ = {
 			isa = PBXGroup;
 			children = (
+				E3F9C34520B63A8000CE37AF /* 个人信息完善model */,
 				E342A80E20B501A300699CAF /* 显示子女或学校后确定model */,
 				E342A81020B501A300699CAF /* 绑定账号model */,
 			);
@@ -1515,51 +1529,11 @@
 		E342A81620B501A300699CAF /* viewController */ = {
 			isa = PBXGroup;
 			children = (
-				E342A81720B501A300699CAF /* 显示子女或学校 */,
-				E342A81B20B501A300699CAF /* 设置新密码 */,
-				E342A81E20B501A300699CAF /* 绑定账号 */,
-				E342A82220B501A300699CAF /* 家长注册 */,
+				E3C58EF820B58614001BEBB7 /* 个人信息完善 */,
+				E3C2979A20B565B20067FF54 /* 企业注册 */,
+				E3C2979520B565870067FF54 /* 个人注册 */,
 			);
 			path = viewController;
-			sourceTree = "<group>";
-		};
-		E342A81720B501A300699CAF /* 显示子女或学校 */ = {
-			isa = PBXGroup;
-			children = (
-				E342A81820B501A300699CAF /* BindAccountShowStudentOrSchoolViewController.xib */,
-				E342A81920B501A300699CAF /* BindAccountShowStudentOrSchoolViewController.swift */,
-				E342A81A20B501A300699CAF /* BindAccountShowStudentOrSchoolDataController.swift */,
-			);
-			path = "显示子女或学校";
-			sourceTree = "<group>";
-		};
-		E342A81B20B501A300699CAF /* 设置新密码 */ = {
-			isa = PBXGroup;
-			children = (
-				E342A81C20B501A300699CAF /* RegisterSettingNewPasswordViewController.swift */,
-				E342A81D20B501A300699CAF /* RegisterSettingNewPasswordViewController.xib */,
-			);
-			path = "设置新密码";
-			sourceTree = "<group>";
-		};
-		E342A81E20B501A300699CAF /* 绑定账号 */ = {
-			isa = PBXGroup;
-			children = (
-				E342A81F20B501A300699CAF /* BindAccountDataController.swift */,
-				E342A82020B501A300699CAF /* BindAccountViewController.xib */,
-				E342A82120B501A300699CAF /* BindAccountViewController.swift */,
-			);
-			path = "绑定账号";
-			sourceTree = "<group>";
-		};
-		E342A82220B501A300699CAF /* 家长注册 */ = {
-			isa = PBXGroup;
-			children = (
-				E342A82320B501A300699CAF /* ParentRegisterDataController.swift */,
-				E342A82420B501A300699CAF /* ParentRegisterViewController.swift */,
-				E342A82520B501A300699CAF /* ParentRegisterViewController.xib */,
-			);
-			path = "家长注册";
 			sourceTree = "<group>";
 		};
 		E342A82620B501A300699CAF /* 登录 */ = {
@@ -1941,6 +1915,58 @@
 			path = "自动登录";
 			sourceTree = "<group>";
 		};
+		E3C2979520B565870067FF54 /* 个人注册 */ = {
+			isa = PBXGroup;
+			children = (
+				E3C2979F20B56B010067FF54 /* PersonRegisterDataController.swift */,
+				E3C2979620B565A50067FF54 /* PersonRegisterViewController.swift */,
+				E3C2979720B565A50067FF54 /* PersonRegisterViewController.xib */,
+			);
+			path = "个人注册";
+			sourceTree = "<group>";
+		};
+		E3C2979A20B565B20067FF54 /* 企业注册 */ = {
+			isa = PBXGroup;
+			children = (
+				E3C2979B20B565C40067FF54 /* CompanyRegisterViewController.swift */,
+				E3C2979C20B565C40067FF54 /* CompanyRegisterViewController.xib */,
+			);
+			path = "企业注册";
+			sourceTree = "<group>";
+		};
+		E3C58EF820B58614001BEBB7 /* 个人信息完善 */ = {
+			isa = PBXGroup;
+			children = (
+				E3C58EF920B58650001BEBB7 /* PersonMessageDataController.swift */,
+				E3C58EFB20B58663001BEBB7 /* PersonMessageViewController.swift */,
+				E3C58EFC20B58663001BEBB7 /* PersonMessageViewController.xib */,
+			);
+			path = "个人信息完善";
+			sourceTree = "<group>";
+		};
+		E3C58EFF20B5877A001BEBB7 /* 个人信息完善cell */ = {
+			isa = PBXGroup;
+			children = (
+				E3C58F0020B587B4001BEBB7 /* PersonMessageTipTableViewCell.swift */,
+				E3C58F0120B587B4001BEBB7 /* PersonMessageTipTableViewCell.xib */,
+				E3C58F0420B59295001BEBB7 /* PersonMessageInputTableViewCell.swift */,
+				E3C58F0520B59295001BEBB7 /* PersonMessageInputTableViewCell.xib */,
+				E3C58F0820B592A1001BEBB7 /* PersonMessagePhotoTableViewCell.swift */,
+				E3C58F0920B592A1001BEBB7 /* PersonMessagePhotoTableViewCell.xib */,
+				E3C58F0C20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.swift */,
+				E3C58F0D20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib */,
+			);
+			path = "个人信息完善cell";
+			sourceTree = "<group>";
+		};
+		E3F9C34520B63A8000CE37AF /* 个人信息完善model */ = {
+			isa = PBXGroup;
+			children = (
+				E3F9C34320B63A7600CE37AF /* PersonMessageMode.swift */,
+			);
+			path = "个人信息完善model";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2049,19 +2075,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E342ABF620B501A500699CAF /* 示例代码WaterViewController.rtf in Resources */,
-				E342AC6520B501A500699CAF /* BindAccountShowStudentOrSchoolViewController.xib in Resources */,
 				E342AC5A20B501A500699CAF /* BindAccountShowStudentsTableViewCell.xib in Resources */,
 				E342AC2E20B501A500699CAF /* MineViewController.xib in Resources */,
 				E342AC5720B501A500699CAF /* ConfirmLoginPwdTableViewCell.xib in Resources */,
+				E3C58F0F20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib in Resources */,
 				E342AC9120B501A500699CAF /* SelectMultipleStudentViewController.xib in Resources */,
 				E342AC4220B501A500699CAF /* UpdatePasswordViewController.xib in Resources */,
-				E342AC6F20B501A500699CAF /* ParentRegisterViewController.xib in Resources */,
 				E342ABE020B501A400699CAF /* HSRightBarButtonItemMenu示例代码.rtf in Resources */,
 				E342ABED20B501A400699CAF /* ShakeView.xib in Resources */,
 				E342AC4020B501A500699CAF /* MineSelectStudentViewController.xib in Resources */,
 				E342AC7F20B501A500699CAF /* BindPhoneFirstViewController.xib in Resources */,
+				E3C2979920B565A50067FF54 /* PersonRegisterViewController.xib in Resources */,
 				E342AC6320B501A500699CAF /* ConfirmLoginView.xib in Resources */,
-				E342AC6920B501A500699CAF /* RegisterSettingNewPasswordViewController.xib in Resources */,
 				E342AC2420B501A500699CAF /* MineLogoutTableViewCell.xib in Resources */,
 				E342AC3D20B501A500699CAF /* VerifyOldPhoneViewController.xib in Resources */,
 				E342AC8920B501A500699CAF /* ForgetPwdViewController.xib in Resources */,
@@ -2086,6 +2111,7 @@
 				E342AC9A20B501A500699CAF /* MyCollectionTableViewCell.xib in Resources */,
 				E342ABEA20B501A400699CAF /* MSCommentEditView.xib in Resources */,
 				E342AC9D20B501A500699CAF /* ApplyCollectionTableViewCell.xib in Resources */,
+				E3C58EFE20B58663001BEBB7 /* PersonMessageViewController.xib in Resources */,
 				E342ACA720B501A500699CAF /* ApplyViewController.xib in Resources */,
 				E342AC0420B501A500699CAF /* HSPopupSelectDayView.xib in Resources */,
 				E342AC3420B501A500699CAF /* MineSelectStudentMultipleViewController.xib in Resources */,
@@ -2097,6 +2123,7 @@
 				E342AC4A20B501A500699CAF /* MineAddStudentViewController.xib in Resources */,
 				E342ACA220B501A500699CAF /* ApplyBannerTableViewCell.xib in Resources */,
 				E342AC7A20B501A500699CAF /* ChangeAreaCollectionViewCell.xib in Resources */,
+				E3C2979E20B565C40067FF54 /* CompanyRegisterViewController.xib in Resources */,
 				E342AC8620B501A500699CAF /* SettingNewPasswordViewController.xib in Resources */,
 				E342ACA020B501A500699CAF /* ApplyViewControllerCollectionViewCell.xib in Resources */,
 				E3429EDE20B4FE6500699CAF /* Assets.xcassets in Resources */,
@@ -2105,13 +2132,15 @@
 				E342AC4920B501A500699CAF /* UploadHeadPhotoViewController.xib in Resources */,
 				E3429EDC20B4FE6400699CAF /* Main.storyboard in Resources */,
 				E342ABBE20B501A400699CAF /* 使用说明.rtf in Resources */,
+				E3C58F0B20B592A1001BEBB7 /* PersonMessagePhotoTableViewCell.xib in Resources */,
+				E3C58F0720B59295001BEBB7 /* PersonMessageInputTableViewCell.xib in Resources */,
 				E342ABF520B501A500699CAF /* 示例代码XHLTagLabelsViewController.rtf in Resources */,
+				E3C58F0320B587B4001BEBB7 /* PersonMessageTipTableViewCell.xib in Resources */,
 				E342AC0520B501A500699CAF /* MenuView示例代码.rtf in Resources */,
 				E342AC7820B501A500699CAF /* SelectAreaPopupViewTableViewCell.xib in Resources */,
 				E342ABE620B501A400699CAF /* DropListTableViewCell.xib in Resources */,
 				E342AC9420B501A500699CAF /* SelectMultipleStudentTableViewCell.xib in Resources */,
 				E342AC3220B501A500699CAF /* MineSelectStudentMultipleTableViewCell.xib in Resources */,
-				E342AC6B20B501A500699CAF /* BindAccountViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2220,6 +2249,7 @@
 				E342AC5D20B501A500699CAF /* ConfirmLoginSelectStrOrSchoolTableViewCell.swift in Sources */,
 				E342AC0120B501A500699CAF /* TYAlertController.m in Sources */,
 				E3429ED920B4FE6400699CAF /* ViewController.swift in Sources */,
+				E3C297A020B56B010067FF54 /* PersonRegisterDataController.swift in Sources */,
 				E342AC8C20B501A500699CAF /* MSDataProvider+Login.swift in Sources */,
 				E342ABFE20B501A500699CAF /* TYAlertDropDownAnimation.m in Sources */,
 				E342AC0220B501A500699CAF /* HSPopupSelectDayView.swift in Sources */,
@@ -2248,19 +2278,21 @@
 				E342AC6020B501A500699CAF /* BindAccountShowSchoolTableViewCell.swift in Sources */,
 				E342AED220B501A600699CAF /* UIImageView+LH.swift in Sources */,
 				E342ABBF20B501A400699CAF /* PhotoBrowserShowModel.swift in Sources */,
+				E3C58EFA20B58650001BEBB7 /* PersonMessageDataController.swift in Sources */,
 				E342ABF920B501A500699CAF /* UIView+TYAlertView.m in Sources */,
 				E342AC0A20B501A500699CAF /* LHHTTPData.swift in Sources */,
 				E342AED120B501A600699CAF /* CATransition+HS.swift in Sources */,
 				E342AC7D20B501A500699CAF /* ChangeAreaViewController.swift in Sources */,
 				E342AEC520B501A600699CAF /* MSPlistController.swift in Sources */,
 				E342ABF820B501A500699CAF /* TYAlertView.m in Sources */,
+				E3F9C34420B63A7600CE37AF /* PersonMessageMode.swift in Sources */,
 				E342AC0920B501A500699CAF /* LHHttpDataProvider.swift in Sources */,
 				E342ABEE20B501A400699CAF /* CafToMp3.m in Sources */,
 				E342AC3E20B501A500699CAF /* MineSelectStudentViewController.swift in Sources */,
 				E342AC4320B501A500699CAF /* UpdatePasswordDataController.swift in Sources */,
 				E342AC4B20B501A500699CAF /* MineAddStudentDataController.swift in Sources */,
+				E3C58F0620B59295001BEBB7 /* PersonMessageInputTableViewCell.swift in Sources */,
 				E342AC9320B501A500699CAF /* SelectMultipleStudentTableViewCell.swift in Sources */,
-				E342AC6620B501A500699CAF /* BindAccountShowStudentOrSchoolViewController.swift in Sources */,
 				E342AC3A20B501A500699CAF /* UpdatePhoneViewController.swift in Sources */,
 				E342AEC120B501A600699CAF /* MSDataProvider+Common.swift in Sources */,
 				E342AC3920B501A500699CAF /* UpdatePhoneDataController.swift in Sources */,
@@ -2270,10 +2302,10 @@
 				E342AC4F20B501A500699CAF /* ScheduleTeacherDataModel.swift in Sources */,
 				E342AEC820B501A600699CAF /* UITableView+LH.swift in Sources */,
 				E342AC1920B501A500699CAF /* SBJsonStreamWriterAccumulator.m in Sources */,
+				E3C58F0A20B592A1001BEBB7 /* PersonMessagePhotoTableViewCell.swift in Sources */,
 				E342AECB20B501A600699CAF /* ViewController+LH.swift in Sources */,
 				E342AC1A20B501A500699CAF /* SBJsonStreamWriterState.m in Sources */,
 				E342ABC820B501A400699CAF /* ColorChange.swift in Sources */,
-				E342AC6C20B501A500699CAF /* BindAccountViewController.swift in Sources */,
 				E342AC9220B501A500699CAF /* SelectMultipleStudentDataController.swift in Sources */,
 				E342ACA620B501A500699CAF /* ApplyViewController.swift in Sources */,
 				E342AC7E20B501A500699CAF /* BindPhoneFirstDataController.swift in Sources */,
@@ -2287,7 +2319,6 @@
 				E342AEBB20B501A600699CAF /* BaseTermsModel.swift in Sources */,
 				E342AC8820B501A500699CAF /* SettingNewPasswordViewController.swift in Sources */,
 				E342AC9520B501A500699CAF /* MyCell.swift in Sources */,
-				E342AC6720B501A500699CAF /* BindAccountShowStudentOrSchoolDataController.swift in Sources */,
 				E342ABE820B501A400699CAF /* DropListView.swift in Sources */,
 				E342AECE20B501A600699CAF /* UIViewController+LH.swift in Sources */,
 				E342AEBE20B501A600699CAF /* BaseViewController.swift in Sources */,
@@ -2298,7 +2329,6 @@
 				E342AC2720B501A500699CAF /* SelectSchoolTableViewCell.swift in Sources */,
 				E342ABE420B501A400699CAF /* UIPlaceholderTextView.m in Sources */,
 				E342AC1020B501A500699CAF /* NSObject+SBJson.m in Sources */,
-				E342AC6D20B501A500699CAF /* ParentRegisterDataController.swift in Sources */,
 				E342AC2B20B501A500699CAF /* MyAccountDataModel.swift in Sources */,
 				E342ABCD20B501A400699CAF /* SelectDateView.swift in Sources */,
 				E342AC4820B501A500699CAF /* UploadHeadPhotoDataController.swift in Sources */,
@@ -2306,6 +2336,7 @@
 				E342ABFD20B501A500699CAF /* UIView+TYAutoLayout.m in Sources */,
 				E3C2978D20B5512D0067FF54 /* CodeSuccessView.swift in Sources */,
 				E342ABC520B501A400699CAF /* TCCountDown.swift in Sources */,
+				E3C2979D20B565C40067FF54 /* CompanyRegisterViewController.swift in Sources */,
 				E342ABC620B501A400699CAF /* LRSwitchStudentView.swift in Sources */,
 				E342AC5820B501A500699CAF /* ConfirmLoginPwdTableViewCell.swift in Sources */,
 				E342AC2F20B501A500699CAF /* MineViewController.swift in Sources */,
@@ -2321,6 +2352,8 @@
 				E342ABE720B501A400699CAF /* DropListCoverView.swift in Sources */,
 				E342AC5020B501A500699CAF /* ScheduleIndexViewController.swift in Sources */,
 				E342AEDA20B501A600699CAF /* NSString+LH.m in Sources */,
+				E3C58EFD20B58663001BEBB7 /* PersonMessageViewController.swift in Sources */,
+				E3C2979820B565A50067FF54 /* PersonRegisterViewController.swift in Sources */,
 				E342AC6220B501A500699CAF /* BindAccountDataModel.swift in Sources */,
 				E342AC1E20B501A500699CAF /* BMChineseSort.m in Sources */,
 				E342ACA420B501A500699CAF /* ApplyModel.swift in Sources */,
@@ -2342,12 +2375,12 @@
 				E342AC4520B501A500699CAF /* MineSelectSchoolViewController.swift in Sources */,
 				E342AC6120B501A500699CAF /* ShowStudentOrSchoolSubmitDataModel.swift in Sources */,
 				E342AEC920B501A600699CAF /* LHAlertView.swift in Sources */,
-				E342AC6A20B501A500699CAF /* BindAccountDataController.swift in Sources */,
 				E342AEDB20B501A600699CAF /* NSMutableDictionary+LH.m in Sources */,
 				E342AC7020B501A500699CAF /* LoginModel.swift in Sources */,
 				E342AEDD20B501A600699CAF /* UIColor+LH.m in Sources */,
 				E342AC3C20B501A500699CAF /* VerifyOldPhoneDataController.swift in Sources */,
 				E342AC1320B501A500699CAF /* SBJsonStreamParserAccumulator.m in Sources */,
+				E3C58F0E20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.swift in Sources */,
 				E342AC2220B501A500699CAF /* MineLogoutTableViewCell.swift in Sources */,
 				E342AC8E20B501A500699CAF /* MSDataProvider+CommonSutdents.swift in Sources */,
 				E342ABEB20B501A400699CAF /* MSCommentEditView.swift in Sources */,
@@ -2355,7 +2388,6 @@
 				E342ABE120B501A400699CAF /* HSRightBarButtonItemMenuOverlayView.swift in Sources */,
 				E342AC2020B501A500699CAF /* AESEncoder.m in Sources */,
 				E342AECC20B501A600699CAF /* String+LH.swift in Sources */,
-				E342AC6E20B501A500699CAF /* ParentRegisterViewController.swift in Sources */,
 				E342AC2920B501A500699CAF /* StudentDataModel.swift in Sources */,
 				E342AC4120B501A500699CAF /* UpdatePasswordViewController.swift in Sources */,
 				E342AC5420B501A500699CAF /* ScheduleViewController.swift in Sources */,
@@ -2377,7 +2409,6 @@
 				E342AED520B501A600699CAF /* UIImage+LH.m in Sources */,
 				E342ABC120B501A400699CAF /* PoPSelectListView.swift in Sources */,
 				E342AC7320B501A500699CAF /* SchoolModel.swift in Sources */,
-				E342AC6820B501A500699CAF /* RegisterSettingNewPasswordViewController.swift in Sources */,
 				E342AC9F20B501A500699CAF /* ApplyViewControllerCollectionViewCell.swift in Sources */,
 				E342AC9E20B501A500699CAF /* ApplyCollectionTableViewCell.swift in Sources */,
 				E342ABFA20B501A500699CAF /* TYAlertScaleFadeAnimation.m in Sources */,
@@ -2393,6 +2424,7 @@
 				E342ABCA20B501A400699CAF /* MXSCycleScrollView.m in Sources */,
 				E342AC1620B501A500699CAF /* SBJsonWriter.m in Sources */,
 				E342AC0020B501A500699CAF /* TYBaseAnimation.m in Sources */,
+				E3C58F0220B587B4001BEBB7 /* PersonMessageTipTableViewCell.swift in Sources */,
 				E342ABFC20B501A500699CAF /* TYAlertController+TransitionAnimate.m in Sources */,
 				E342AC7620B501A500699CAF /* SelectAreaPopupView.swift in Sources */,
 				E342AEC220B501A600699CAF /* Config.swift in Sources */,

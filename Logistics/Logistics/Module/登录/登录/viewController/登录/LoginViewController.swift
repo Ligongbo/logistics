@@ -46,10 +46,10 @@ class LoginViewController: BaseViewController {
         pushViewController("ForgetPwdViewController")
     }
     @IBAction func personRegisterClick(_ sender: Any) {
-        pushViewController("ParentRegisterViewController")
+        pushViewController("PersonRegisterViewController")
     }
     @IBAction func companyRegisterClick(_ sender: Any) {
-        pushViewController("ParentRegisterViewController")
+        pushViewController("CompanyRegisterViewController")
     }
 
     

@@ -335,9 +335,9 @@
     
     // 如果没有选中过照片 点击确定时选中当前预览的照片
     if (_tzImagePickerVc.selectedModels.count == 0 && _tzImagePickerVc.minImagesCount <= 0) {
-        //TODO
-//        TZAssetModel *model = _models[_currentIndex];
-//        [_tzImagePickerVc.selectedModels addObject:model];
+        //TODO 如果最大数量设置为1 这个得打开 
+        TZAssetModel *model = _models[_currentIndex];
+        [_tzImagePickerVc.selectedModels addObject:model];
     }
     if (_tzImagePickerVc.allowCrop) { // 裁剪状态
         NSIndexPath *indexPath = [NSIndexPath indexPathForItem:_currentIndex inSection:0];
