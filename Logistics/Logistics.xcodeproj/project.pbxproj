@@ -277,6 +277,10 @@
 		E3C58F0B20B592A1001BEBB7 /* PersonMessagePhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58F0920B592A1001BEBB7 /* PersonMessagePhotoTableViewCell.xib */; };
 		E3C58F0E20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C58F0C20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.swift */; };
 		E3C58F0F20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58F0D20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib */; };
+		E3D3195820B689AD00DE3CA3 /* AdviertisementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D3195620B689AD00DE3CA3 /* AdviertisementViewController.swift */; };
+		E3D3195920B689AD00DE3CA3 /* AdviertisementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D3195720B689AD00DE3CA3 /* AdviertisementViewController.xib */; };
+		E3D3195C20B6944D00DE3CA3 /* SuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D3195A20B6944D00DE3CA3 /* SuggestionViewController.swift */; };
+		E3D3195D20B6944D00DE3CA3 /* SuggestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D3195B20B6944D00DE3CA3 /* SuggestionViewController.xib */; };
 		E3F9C34420B63A7600CE37AF /* PersonMessageMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9C34320B63A7600CE37AF /* PersonMessageMode.swift */; };
 		E3F9C34720B6483600CE37AF /* CompanyRegisterDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9C34620B6483600CE37AF /* CompanyRegisterDataController.swift */; };
 		E3F9C34A20B6486900CE37AF /* CompanyRegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9C34920B6486900CE37AF /* CompanyRegisterModel.swift */; };
@@ -640,6 +644,10 @@
 		E3C58F0920B592A1001BEBB7 /* PersonMessagePhotoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonMessagePhotoTableViewCell.xib; sourceTree = "<group>"; };
 		E3C58F0C20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMessageButtonTableViewCell.swift; sourceTree = "<group>"; };
 		E3C58F0D20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonMessageButtonTableViewCell.xib; sourceTree = "<group>"; };
+		E3D3195620B689AD00DE3CA3 /* AdviertisementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviertisementViewController.swift; sourceTree = "<group>"; };
+		E3D3195720B689AD00DE3CA3 /* AdviertisementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdviertisementViewController.xib; sourceTree = "<group>"; };
+		E3D3195A20B6944D00DE3CA3 /* SuggestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionViewController.swift; sourceTree = "<group>"; };
+		E3D3195B20B6944D00DE3CA3 /* SuggestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestionViewController.xib; sourceTree = "<group>"; };
 		E3F9C34320B63A7600CE37AF /* PersonMessageMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMessageMode.swift; sourceTree = "<group>"; };
 		E3F9C34620B6483600CE37AF /* CompanyRegisterDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyRegisterDataController.swift; sourceTree = "<group>"; };
 		E3F9C34920B6486900CE37AF /* CompanyRegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyRegisterModel.swift; sourceTree = "<group>"; };
@@ -1426,6 +1434,8 @@
 		E342A7FB20B501A300699CAF /* 登录 */ = {
 			isa = PBXGroup;
 			children = (
+				E3D3195520B6896200DE3CA3 /* 意见反馈 */,
+				E3D3195420B6895300DE3CA3 /* 广告服务 */,
 				E342A7FC20B501A300699CAF /* 注册 */,
 				E342A82620B501A300699CAF /* 登录 */,
 				E342A84420B501A300699CAF /* 忘记密码 */,
@@ -1984,6 +1994,24 @@
 			path = "个人信息完善cell";
 			sourceTree = "<group>";
 		};
+		E3D3195420B6895300DE3CA3 /* 广告服务 */ = {
+			isa = PBXGroup;
+			children = (
+				E3D3195620B689AD00DE3CA3 /* AdviertisementViewController.swift */,
+				E3D3195720B689AD00DE3CA3 /* AdviertisementViewController.xib */,
+			);
+			path = "广告服务";
+			sourceTree = "<group>";
+		};
+		E3D3195520B6896200DE3CA3 /* 意见反馈 */ = {
+			isa = PBXGroup;
+			children = (
+				E3D3195A20B6944D00DE3CA3 /* SuggestionViewController.swift */,
+				E3D3195B20B6944D00DE3CA3 /* SuggestionViewController.xib */,
+			);
+			path = "意见反馈";
+			sourceTree = "<group>";
+		};
 		E3F9C34520B63A8000CE37AF /* 个人信息完善model */ = {
 			isa = PBXGroup;
 			children = (
@@ -2124,10 +2152,12 @@
 				E342AC5A20B501A500699CAF /* BindAccountShowStudentsTableViewCell.xib in Resources */,
 				E342AC2E20B501A500699CAF /* MineViewController.xib in Resources */,
 				E342AC5720B501A500699CAF /* ConfirmLoginPwdTableViewCell.xib in Resources */,
+				E3D3195D20B6944D00DE3CA3 /* SuggestionViewController.xib in Resources */,
 				E3C58F0F20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib in Resources */,
 				E3F9C35F20B6651200CE37AF /* CompanyRegisterSuccessView.xib in Resources */,
 				E342AC9120B501A500699CAF /* SelectMultipleStudentViewController.xib in Resources */,
 				E342AC4220B501A500699CAF /* UpdatePasswordViewController.xib in Resources */,
+				E3D3195920B689AD00DE3CA3 /* AdviertisementViewController.xib in Resources */,
 				E342ABE020B501A400699CAF /* HSRightBarButtonItemMenu示例代码.rtf in Resources */,
 				E342ABED20B501A400699CAF /* ShakeView.xib in Resources */,
 				E342AC4020B501A500699CAF /* MineSelectStudentViewController.xib in Resources */,
@@ -2305,6 +2335,7 @@
 				E342AC0220B501A500699CAF /* HSPopupSelectDayView.swift in Sources */,
 				E342AC4720B501A500699CAF /* UploadHeadPhotoViewController.swift in Sources */,
 				E342AC5220B501A500699CAF /* ScheduleIndexDataController.swift in Sources */,
+				E3D3195820B689AD00DE3CA3 /* AdviertisementViewController.swift in Sources */,
 				E342AC1820B501A500699CAF /* SBJsonStreamParserAdapter.m in Sources */,
 				E342AC7420B501A500699CAF /* ConfigDataModel.swift in Sources */,
 				E342AC0E20B501A500699CAF /* MD5Encoder.m in Sources */,
@@ -2363,6 +2394,7 @@
 				E342ACA820B501A500699CAF /* ApplyDataController.swift in Sources */,
 				E342AC0D20B501A500699CAF /* FileOperator.swift in Sources */,
 				E342ABCB20B501A400699CAF /* RBCustomDatePickerView.m in Sources */,
+				E3D3195C20B6944D00DE3CA3 /* SuggestionViewController.swift in Sources */,
 				E342AC8020B501A500699CAF /* BindPhoneFirstViewController.swift in Sources */,
 				E3429ED720B4FE6400699CAF /* AppDelegate.swift in Sources */,
 				E342AED020B501A600699CAF /* UIImage_LH.swift in Sources */,
