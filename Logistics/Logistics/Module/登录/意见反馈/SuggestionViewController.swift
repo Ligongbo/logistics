@@ -9,11 +9,14 @@
 import UIKit
 
 class SuggestionViewController: BaseViewController {
-    @IBOutlet weak var selectImageBtn: UIButton!
+    
+@IBOutlet var imageContainer: UIView!
+    
     @IBOutlet var wordsTextView: UIPlaceholderTextView!
     @IBOutlet weak var wordsCountLabel: UILabel!
     var imagePicker:TZImagePickerController!
-    var selectAsset:PHAsset?
+    var images:Array<PhotoBrowserShowModel> = [PhotoBrowserShowModel]()
+    var selectImageView:CommonSelectImageView!
     @IBAction func phoneClick(_ sender: Any) {
         let phoneNum = "tel:400-686-5997"
         let callWebview = UIWebView()
@@ -28,28 +31,26 @@ class SuggestionViewController: BaseViewController {
         title = "意见反馈"
         wordsTextView.placeholder = "请输入您的留言"
         wordsTextView.delegate = self
+        initUI()
     }
 
   
-    @IBAction func selectImageClick(_ sender: UIButton) {
-        initImagePick()
-        imagePicker.maxImagesCount = 1
-        imagePicker.urlCount = 0
-        
-            if selectAsset != nil{
-                imagePicker?.selectedAssets = [selectAsset]
-            }
-            imagePicker?.didFinishPickingPhotosHandle = {
-                (photos,assets,isSelectOriginalPhoto) in
-                if photos != nil && (photos?.count)! > 0{
-                    sender.setBackgroundImage(photos![0], for: .normal)
-                }
-                
-            }
-        UIApplication.shared.keyWindow?.rootViewController?.present(imagePicker!, animated: true, completion: nil)
-        
-    }
+   
     
+}
+extension SuggestionViewController{
+    func initUI(){
+        selectImageView = UIView.loadViewWithName("CommonSelectImageView") as! CommonSelectImageView
+        selectImageView.drawInView(imageContainer)
+        selectImageView.kwidth = ScreenWidth - 124
+        selectImageView.total = 3
+        selectImageView.canEdit = true
+        selectImageView.update(photos: self.images) { (images, height) in
+            self.images = images
+            
+        }
+
+    }
 }
 extension SuggestionViewController:UITextViewDelegate{
     func textViewDidChange(_ textView: UITextView) {
@@ -71,10 +72,5 @@ extension SuggestionViewController:UITextViewDelegate{
 }
 
 extension SuggestionViewController:TZImagePickerControllerDelegate{
-    func initImagePick(){
-        imagePicker = TZImagePickerController.init(maxImagesCount: 1, delegate: self,urlCount:0)
-        // 在内部是否显示拍照按钮
-        imagePicker?.allowTakePicture = true
-        imagePicker?.sortAscendingByModificationDate = false
-    }
+  
 }

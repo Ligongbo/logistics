@@ -201,10 +201,6 @@
 		E342AC9220B501A500699CAF /* SelectMultipleStudentDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A85820B501A300699CAF /* SelectMultipleStudentDataController.swift */; };
 		E342AC9320B501A500699CAF /* SelectMultipleStudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A85920B501A300699CAF /* SelectMultipleStudentTableViewCell.swift */; };
 		E342AC9420B501A500699CAF /* SelectMultipleStudentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E342A85A20B501A300699CAF /* SelectMultipleStudentTableViewCell.xib */; };
-		E342AC9520B501A500699CAF /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A85C20B501A300699CAF /* MyCell.swift */; };
-		E342AC9620B501A500699CAF /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E342A85D20B501A300699CAF /* MyCell.xib */; };
-		E342AC9720B501A500699CAF /* MyCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A85E20B501A300699CAF /* MyCollectionTableViewCell.swift */; };
-		E342AC9A20B501A500699CAF /* MyCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E342A86120B501A300699CAF /* MyCollectionTableViewCell.xib */; };
 		E342AC9B20B501A500699CAF /* SelectMultipleStudentDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A86320B501A300699CAF /* SelectMultipleStudentDataModel.swift */; };
 		E342AC9C20B501A500699CAF /* UploadFileDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342A86420B501A300699CAF /* UploadFileDataModel.swift */; };
 		E342AC9D20B501A500699CAF /* ApplyCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E342A86820B501A300699CAF /* ApplyCollectionTableViewCell.xib */; };
@@ -266,6 +262,10 @@
 		E3C2979D20B565C40067FF54 /* CompanyRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C2979B20B565C40067FF54 /* CompanyRegisterViewController.swift */; };
 		E3C2979E20B565C40067FF54 /* CompanyRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C2979C20B565C40067FF54 /* CompanyRegisterViewController.xib */; };
 		E3C297A020B56B010067FF54 /* PersonRegisterDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C2979F20B56B010067FF54 /* PersonRegisterDataController.swift */; };
+		E3C41DF220B6A0C300C51276 /* CollectImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C41DEE20B6A0C200C51276 /* CollectImageCollectionViewCell.xib */; };
+		E3C41DF320B6A0C300C51276 /* CommonSelectImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C41DEF20B6A0C200C51276 /* CommonSelectImageView.swift */; };
+		E3C41DF420B6A0C300C51276 /* CommonSelectImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C41DF020B6A0C200C51276 /* CommonSelectImageView.xib */; };
+		E3C41DF520B6A0C300C51276 /* CollectImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C41DF120B6A0C300C51276 /* CollectImageCollectionViewCell.swift */; };
 		E3C58EFA20B58650001BEBB7 /* PersonMessageDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C58EF920B58650001BEBB7 /* PersonMessageDataController.swift */; };
 		E3C58EFD20B58663001BEBB7 /* PersonMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C58EFB20B58663001BEBB7 /* PersonMessageViewController.swift */; };
 		E3C58EFE20B58663001BEBB7 /* PersonMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58EFC20B58663001BEBB7 /* PersonMessageViewController.xib */; };
@@ -557,10 +557,6 @@
 		E342A85820B501A300699CAF /* SelectMultipleStudentDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectMultipleStudentDataController.swift; sourceTree = "<group>"; };
 		E342A85920B501A300699CAF /* SelectMultipleStudentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectMultipleStudentTableViewCell.swift; sourceTree = "<group>"; };
 		E342A85A20B501A300699CAF /* SelectMultipleStudentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectMultipleStudentTableViewCell.xib; sourceTree = "<group>"; };
-		E342A85C20B501A300699CAF /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
-		E342A85D20B501A300699CAF /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
-		E342A85E20B501A300699CAF /* MyCollectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionTableViewCell.swift; sourceTree = "<group>"; };
-		E342A86120B501A300699CAF /* MyCollectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionTableViewCell.xib; sourceTree = "<group>"; };
 		E342A86320B501A300699CAF /* SelectMultipleStudentDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectMultipleStudentDataModel.swift; sourceTree = "<group>"; };
 		E342A86420B501A300699CAF /* UploadFileDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadFileDataModel.swift; sourceTree = "<group>"; };
 		E342A86820B501A300699CAF /* ApplyCollectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApplyCollectionTableViewCell.xib; sourceTree = "<group>"; };
@@ -633,6 +629,10 @@
 		E3C2979B20B565C40067FF54 /* CompanyRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyRegisterViewController.swift; sourceTree = "<group>"; };
 		E3C2979C20B565C40067FF54 /* CompanyRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyRegisterViewController.xib; sourceTree = "<group>"; };
 		E3C2979F20B56B010067FF54 /* PersonRegisterDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRegisterDataController.swift; sourceTree = "<group>"; };
+		E3C41DEE20B6A0C200C51276 /* CollectImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		E3C41DEF20B6A0C200C51276 /* CommonSelectImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonSelectImageView.swift; sourceTree = "<group>"; };
+		E3C41DF020B6A0C200C51276 /* CommonSelectImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonSelectImageView.xib; sourceTree = "<group>"; };
+		E3C41DF120B6A0C300C51276 /* CollectImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		E3C58EF920B58650001BEBB7 /* PersonMessageDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMessageDataController.swift; sourceTree = "<group>"; };
 		E3C58EFB20B58663001BEBB7 /* PersonMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMessageViewController.swift; sourceTree = "<group>"; };
 		E3C58EFC20B58663001BEBB7 /* PersonMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonMessageViewController.xib; sourceTree = "<group>"; };
@@ -1734,10 +1734,10 @@
 		E342A85B20B501A300699CAF /* 选择图片 */ = {
 			isa = PBXGroup;
 			children = (
-				E342A85C20B501A300699CAF /* MyCell.swift */,
-				E342A85D20B501A300699CAF /* MyCell.xib */,
-				E342A85E20B501A300699CAF /* MyCollectionTableViewCell.swift */,
-				E342A86120B501A300699CAF /* MyCollectionTableViewCell.xib */,
+				E3C41DF120B6A0C300C51276 /* CollectImageCollectionViewCell.swift */,
+				E3C41DEE20B6A0C200C51276 /* CollectImageCollectionViewCell.xib */,
+				E3C41DEF20B6A0C200C51276 /* CommonSelectImageView.swift */,
+				E3C41DF020B6A0C200C51276 /* CommonSelectImageView.xib */,
 			);
 			path = "选择图片";
 			sourceTree = "<group>";
@@ -2155,6 +2155,7 @@
 				E3D3195D20B6944D00DE3CA3 /* SuggestionViewController.xib in Resources */,
 				E3C58F0F20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib in Resources */,
 				E3F9C35F20B6651200CE37AF /* CompanyRegisterSuccessView.xib in Resources */,
+				E3C41DF420B6A0C300C51276 /* CommonSelectImageView.xib in Resources */,
 				E342AC9120B501A500699CAF /* SelectMultipleStudentViewController.xib in Resources */,
 				E342AC4220B501A500699CAF /* UpdatePasswordViewController.xib in Resources */,
 				E3D3195920B689AD00DE3CA3 /* AdviertisementViewController.xib in Resources */,
@@ -2175,6 +2176,7 @@
 				E342AC2320B501A500699CAF /* MineSchoolTableViewCell.xib in Resources */,
 				E342AC8520B501A500699CAF /* LanchImageViewController.xib in Resources */,
 				E342AC5120B501A500699CAF /* ScheduleIndexViewController.xib in Resources */,
+				E3C41DF220B6A0C300C51276 /* CollectImageCollectionViewCell.xib in Resources */,
 				E342ABC420B501A400699CAF /* PoPSelectListView.xib in Resources */,
 				E342AC5520B501A500699CAF /* ScheduleViewController.xib in Resources */,
 				E342ABC220B501A400699CAF /* PopSelectListTableViewCell.xib in Resources */,
@@ -2186,8 +2188,6 @@
 				E342AC3620B501A500699CAF /* AboutUsViewController.xib in Resources */,
 				E342ABF320B501A500699CAF /* NoDataView.xib in Resources */,
 				E342AC3820B501A500699CAF /* UpdatePhoneViewController.xib in Resources */,
-				E342AC9620B501A500699CAF /* MyCell.xib in Resources */,
-				E342AC9A20B501A500699CAF /* MyCollectionTableViewCell.xib in Resources */,
 				E342ABEA20B501A400699CAF /* MSCommentEditView.xib in Resources */,
 				E342AC9D20B501A500699CAF /* ApplyCollectionTableViewCell.xib in Resources */,
 				E3C58EFE20B58663001BEBB7 /* PersonMessageViewController.xib in Resources */,
@@ -2324,7 +2324,6 @@
 				E342ABE320B501A400699CAF /* HSRightBarButtonItemMenuItem.swift in Sources */,
 				E342AC0B20B501A500699CAF /* MSDataProvider.swift in Sources */,
 				E342ABCC20B501A400699CAF /* LHImageCompressor.m in Sources */,
-				E342AC9720B501A500699CAF /* MyCollectionTableViewCell.swift in Sources */,
 				E342AC8D20B501A500699CAF /* MSGuidePageViewController.swift in Sources */,
 				E342AC5D20B501A500699CAF /* ConfirmLoginSelectStrOrSchoolTableViewCell.swift in Sources */,
 				E342AC0120B501A500699CAF /* TYAlertController.m in Sources */,
@@ -2401,7 +2400,6 @@
 				E342AC1420B501A500699CAF /* SBJsonUTF8Stream.m in Sources */,
 				E342AEBB20B501A600699CAF /* BaseTermsModel.swift in Sources */,
 				E342AC8820B501A500699CAF /* SettingNewPasswordViewController.swift in Sources */,
-				E342AC9520B501A500699CAF /* MyCell.swift in Sources */,
 				E342ABE820B501A400699CAF /* DropListView.swift in Sources */,
 				E342AECE20B501A600699CAF /* UIViewController+LH.swift in Sources */,
 				E3F9C35D20B6650800CE37AF /* CompanyRegisterSuccessView.swift in Sources */,
@@ -2425,6 +2423,7 @@
 				E342AC5820B501A500699CAF /* ConfirmLoginPwdTableViewCell.swift in Sources */,
 				E342AC2F20B501A500699CAF /* MineViewController.swift in Sources */,
 				E3F9C35A20B6499400CE37AF /* CompanyRegisterTipTableViewCell.swift in Sources */,
+				E3C41DF520B6A0C300C51276 /* CollectImageCollectionViewCell.swift in Sources */,
 				E342ABFB20B501A500699CAF /* TYAlertFadeAnimation.m in Sources */,
 				E3F9C35220B6496000CE37AF /* CompanyRegisterPhotoTableViewCell.swift in Sources */,
 				E342AEB720B501A600699CAF /* BaseDataController.swift in Sources */,
@@ -2458,6 +2457,7 @@
 				E342AC8120B501A500699CAF /* LanchImageViewController.swift in Sources */,
 				E3C2979320B55CD20067FF54 /* AutoLoginViewController.swift in Sources */,
 				E342AC1120B501A500699CAF /* SBJsonStreamParser.m in Sources */,
+				E3C41DF320B6A0C300C51276 /* CommonSelectImageView.swift in Sources */,
 				E342AC7120B501A500699CAF /* UserModel.swift in Sources */,
 				E342AC4520B501A500699CAF /* MineSelectSchoolViewController.swift in Sources */,
 				E342AC6120B501A500699CAF /* ShowStudentOrSchoolSubmitDataModel.swift in Sources */,

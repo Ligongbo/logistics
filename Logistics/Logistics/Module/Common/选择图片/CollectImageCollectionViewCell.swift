@@ -1,5 +1,5 @@
 //
-//  MyCell.swift
+//  CollectImageCollectionViewCell.swift
 //  collectionViewDemo
 //
 //  Created by 王岩 on 2017/8/2.
@@ -8,7 +8,7 @@
 
 import UIKit
 typealias DeleteBlock = () -> Void
-class MyCell: UICollectionViewCell {
+class CollectImageCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet var deleteBtn: UIButton!
     @IBAction func deleteClick(_ sender: Any) {

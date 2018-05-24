@@ -19,6 +19,11 @@ let MyAppID:String = "" //appId
 let ProductId:String = "a131be5242a311e8b50500505694781a"//
 let GetAreaServerClientIdentifier = "GetAreaServerClientIdentifier"
 
+//默认图片
+let defaultImage = UIImage.loadImage("image-placeholder")
+let defaultFullScreenImage = UIImage.loadImage("image-fullScreen-placeholder")
+let defaultPortraitImage = UIImage.loadImage("defaultPortrait")
+
 //存储当前登录用户信息
 var currentUser:UserModel! = UserModel()
 
