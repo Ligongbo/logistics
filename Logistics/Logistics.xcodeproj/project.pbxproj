@@ -1752,8 +1752,8 @@
 		E342A86620B501A300699CAF /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				E342A86720B501A300699CAF /* cell */,
 				E342A86E20B501A300699CAF /* MSDataProvider+Apply.swift */,
+				E342A86720B501A300699CAF /* cell */,
 				E342A86F20B501A300699CAF /* model */,
 				E342A87220B501A300699CAF /* viewController */,
 			);
@@ -1785,9 +1785,9 @@
 		E342A87220B501A300699CAF /* viewController */ = {
 			isa = PBXGroup;
 			children = (
+				E342A87520B501A300699CAF /* ApplyDataController.swift */,
 				E342A87320B501A300699CAF /* ApplyViewController.swift */,
 				E342A87420B501A300699CAF /* ApplyViewController.xib */,
-				E342A87520B501A300699CAF /* ApplyDataController.swift */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -2665,12 +2665,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZN9FP4NC8P;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Logistics/Library/百度广告sdk",
 				);
 				INFOPLIST_FILE = Logistics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2696,12 +2698,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZN9FP4NC8P;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Logistics/Library/百度广告sdk",
 				);
 				INFOPLIST_FILE = Logistics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
