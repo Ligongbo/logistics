@@ -75,7 +75,7 @@ extension ApplyViewController{
 }
 extension ApplyViewController:UITableViewDelegate,UITableViewDataSource{
     func numberOfSections(in tableView: UITableView) -> Int {
-        return dataController.cellCount
+        return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
@@ -85,14 +85,18 @@ extension ApplyViewController:UITableViewDelegate,UITableViewDataSource{
             let cell = ApplyBannerTableViewCell.loadCell(tableView)
 //            let arr = ["https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4267222417,1017407570&fm=200&gp=0.jpg","https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3144465310,4114570573&fm=117&gp=0.jpg"]
 //            cell.initCell(dataArray: arr)
+            
+            let itemModel = BannerItemModel()
+            itemModel.jumpUrl = "http://www.baidu.com"
+            itemModel.title = "轮播图"
+            itemModel.picUrl = "https://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/0dd7912397dda144045ae15eb9b7d0a20df4868f.jpg"
+            dataController.bannerModel.data.append(itemModel)
+            dataController.bannerModel.data.append(itemModel)
+            cell.delegate = self
             cell.initCell(model: dataController.bannerModel)
             return cell
-        }else{
-            let cell = ApplyCollectionTableViewCell.loadCell(tableView)
-            cell.initCell(delegate: self, dataArray: dataController.model.data)
-            cell.backgroundColor = UIColor.clear
-            return cell
         }
+        return UITableViewCell()
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if indexPath.section == 0{
@@ -102,5 +106,16 @@ extension ApplyViewController:UITableViewDelegate,UITableViewDataSource{
            return height
         }
         
+    }
+}
+extension ApplyViewController:ApplyBannerProtocol{
+    func applyBannerIndex(index: Int) {
+        if dataController.bannerModel.data.count > 0{
+            let webVc = CommonWebViewController()
+            webVc.urlContent = dataController.bannerModel.data[index].jumpUrl
+            webVc.titleContent = dataController.bannerModel.data[index].title
+            webVc.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(webVc, animated: true)
+        }
     }
 }

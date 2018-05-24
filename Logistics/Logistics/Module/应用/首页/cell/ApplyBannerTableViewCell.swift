@@ -7,16 +7,20 @@
 //
 
 import UIKit
-
+protocol ApplyBannerProtocol {
+    func applyBannerIndex(index:Int) -> Void
+    
+}
 class ApplyBannerTableViewCell: UITableViewCell {
 
     @IBOutlet var cycleScrollViewContainer: UIView!
     var dataArray:Array<String> = [String]()
+    var titleArray:Array<String> = [String]()
     var model:BannerDataModel?
     
-    @IBOutlet var advertisingViewBgView: UIView!
     
     
+    var delegate:ApplyBannerProtocol!
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -26,18 +30,14 @@ class ApplyBannerTableViewCell: UITableViewCell {
 //        initCycleScrollView()
 //    }
     func initCell(model:BannerDataModel){
-        if currentUser.userType != .student {
-           
-        }else{
-            
-        }
         
-        
+       
         if model.data.count > 0{
             self.model = model
             
             for item in model.data{
-                dataArray.append(FileAccessHost + item.picUrl)
+                dataArray.append(item.picUrl)
+                titleArray.append(item.title)
             }
             initCycleScrollView()
         }
@@ -59,8 +59,16 @@ class ApplyBannerTableViewCell: UITableViewCell {
         cycleScrollView.imageURLStringsGroup = dataArray
         cycleScrollView.autoScrollTimeInterval = 5
         cycleScrollView.drawInView(cycleScrollViewContainer)
-        
+        cycleScrollView.showPageControl = true
+        cycleScrollView.pageControlAliment = SDCycleScrollViewPageContolAlimentRight
+        cycleScrollView.titlesGroup = titleArray
         cycleScrollView.clickItemOperationBlock = {(index) in
+            if self.delegate != nil{
+                self.delegate.applyBannerIndex(index: index)
+            }
+            
+            
+           
             
         }
         

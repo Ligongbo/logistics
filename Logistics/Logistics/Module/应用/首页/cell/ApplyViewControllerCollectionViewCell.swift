@@ -18,8 +18,8 @@ class ApplyViewControllerCollectionViewCell: UICollectionViewCell {
         // Initialization code
     }
     func update(model:ApplyToolModel){
-        nameLabel.text = model.text
-        iconImageView.sd_setImage(with: URL.init(string: BaseImgUrl + model.icon))
+//        nameLabel.text = model.text
+//        iconImageView.sd_setImage(with: URL.init(string: BaseImgUrl + model.icon))
     }
 
 }

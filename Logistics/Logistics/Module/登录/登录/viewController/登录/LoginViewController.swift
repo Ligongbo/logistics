@@ -43,8 +43,8 @@ class LoginViewController: BaseViewController {
         self.navigationController?.navigationBar.isHidden = false
     }
     @IBAction func forgetPwdButtonClicked(_ sender: UIButton) {
-       pushViewController("SuggestionViewController")
-//        pushViewController("ForgetPwdViewController")
+//       pushViewController("SuggestionViewController")
+        pushViewController("ForgetPwdViewController")
     }
     @IBAction func personRegisterClick(_ sender: Any) {
         pushViewController("PersonRegisterViewController")

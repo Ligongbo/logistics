@@ -81,50 +81,7 @@ extension ApplyCollectionTableViewCell:UICollectionViewDelegate,UICollectionView
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let model = dataArray[indexPath.row]
         
-        
-        if model.toolId == .realRecord{//写实记录
-            if currentUser.userType == UserType.teacher {
-                
-                delegate.pushViewController("RealRecordTeacherHomeViewController",sender:model.text)
-            }else {
-                delegate.pushViewController("RealRecordStudentPersonalActivityListViewController",sender:model.text)
-            }
-        }else if model.toolId == .dailyShow{//日常表现
-            
-            if currentUser.userType == UserType.teacher{
-                delegate.pushViewController("DailyPerformanceTeacherViewController")
-            }else {
-                delegate.pushViewController("DailyPerformanceParentStudentViewController")
-            }
-            
-        }else if model.toolId == .hiHonorJl{//荣誉信息
-            if currentUser.userType == .teacher{
-                delegate.pushViewController("HonoraryQualificationViewController",sender:model.text)
-            }else{
-                delegate.pushViewController("HonoraryQualificationStudentParentViewController",sender:model.text)
-            }
-            
-        }else if model.toolId == .researchLearn{//学业成果
-            if currentUser.userType == .teacher{
-                delegate.pushViewController("ResearchLearnTeacherHomeViewController",sender:model.text)
-            }
-            else{
-                delegate.pushViewController("ResearchLearnStudentHomeViewController",sender:model.text)
-            }
-        }else if model.toolId == .comment{//评语
-            if currentUser.userType == UserType.teacher{
-                delegate.pushViewController("CommentStudentListViewController",sender:model.text)
-            }else {
-                delegate.pushViewController("CommentSPHomeViewController",sender:model.text)
-            }
-        }else if model.toolId == .growthPlan{//成长规划
-            if currentUser.userType == UserType.teacher{
-                delegate.pushViewController("GrowthPlanTeacherHomeViewController",sender:model.text)
-                
-            }else{
-                delegate.pushViewController("GrowthPlanPSHomeViewController",sender:model.text)
-            }
-        }
+   
     }
     
 }
