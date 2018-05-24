@@ -14,6 +14,7 @@
             <connections>
                 <outlet property="codeTextField" destination="qyu-0f-Zee" id="zCv-WW-TEK"/>
                 <outlet property="companyAccountTextField" destination="2Rx-nf-ALJ" id="1tY-2W-0qZ"/>
+                <outlet property="companyAccountView" destination="nCw-Ps-gRL" id="3Op-JH-EA0"/>
                 <outlet property="getCodeButton" destination="r6E-9a-qxT" id="xOF-Wx-Egb"/>
                 <outlet property="passwordTextField" destination="4Ew-Tu-t27" id="RpC-nt-YHi"/>
                 <outlet property="userNameTextField" destination="WRc-Ms-dq6" id="DkV-EL-Fuf"/>

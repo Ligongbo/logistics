@@ -59,22 +59,23 @@ class LoginViewController: BaseViewController {
     
     @IBAction func loginButtonClicked(_ sender: UIButton) {
         closeKeyboard()
-        if !checkFun(){
-            return
-        }
+           self.showMainTab()
+//        if !checkFun(){
+//            return
+//        }
         
-        let parameter:NSMutableDictionary = [
-            "username":userNameTextField.text!,
-            "pwd":passwordTextField.text!,
-            
-        ]
-        dataController.login(parameter: parameter) { (isSucceed, info) in
-            if isSucceed {
-                self.showMainTab()
-            }else {
-
-            }
-        }
+//        let parameter:NSMutableDictionary = [
+//            "username":userNameTextField.text!,
+//            "pwd":passwordTextField.text!,
+//
+//        ]
+//        dataController.login(parameter: parameter) { (isSucceed, info) in
+//            if isSucceed {
+//                self.showMainTab()
+//            }else {
+//
+//            }
+//        }
     }
     
     func checkFun() -> Bool{

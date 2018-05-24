@@ -10,6 +10,7 @@ import UIKit
 
 class CodeSuccessView: UIView {
 
+    @IBOutlet weak var contentLabel: UILabel!
     @IBOutlet weak var bgView: UIView!
     override func awakeFromNib() {
         super.awakeFromNib()

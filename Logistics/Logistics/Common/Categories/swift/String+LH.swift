@@ -32,7 +32,7 @@ extension String {
             let pred = NSPredicate(format: "SELF MATCHES %@", regex)
             let isMatch = pred.evaluate(with: phone)
             if !isMatch {
-                LHAlertView.showTipAlertWithTitle("无效手机号")
+                LHAlertView.showTipAlertWithTitle("请输入标准手机号")
                 return false
             }
         }

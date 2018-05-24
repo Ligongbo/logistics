@@ -278,6 +278,16 @@
 		E3C58F0E20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C58F0C20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.swift */; };
 		E3C58F0F20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C58F0D20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib */; };
 		E3F9C34420B63A7600CE37AF /* PersonMessageMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9C34320B63A7600CE37AF /* PersonMessageMode.swift */; };
+		E3F9C34720B6483600CE37AF /* CompanyRegisterDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9C34620B6483600CE37AF /* CompanyRegisterDataController.swift */; };
+		E3F9C34A20B6486900CE37AF /* CompanyRegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9C34920B6486900CE37AF /* CompanyRegisterModel.swift */; };
+		E3F9C35220B6496000CE37AF /* CompanyRegisterPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9C35020B6496000CE37AF /* CompanyRegisterPhotoTableViewCell.swift */; };
+		E3F9C35320B6496000CE37AF /* CompanyRegisterPhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F9C35120B6496000CE37AF /* CompanyRegisterPhotoTableViewCell.xib */; };
+		E3F9C35620B6497900CE37AF /* CompanyRegisterInputTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9C35420B6497900CE37AF /* CompanyRegisterInputTableViewCell.swift */; };
+		E3F9C35720B6497900CE37AF /* CompanyRegisterInputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F9C35520B6497900CE37AF /* CompanyRegisterInputTableViewCell.xib */; };
+		E3F9C35A20B6499400CE37AF /* CompanyRegisterTipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9C35820B6499400CE37AF /* CompanyRegisterTipTableViewCell.swift */; };
+		E3F9C35B20B6499400CE37AF /* CompanyRegisterTipTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F9C35920B6499400CE37AF /* CompanyRegisterTipTableViewCell.xib */; };
+		E3F9C35D20B6650800CE37AF /* CompanyRegisterSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F9C35C20B6650800CE37AF /* CompanyRegisterSuccessView.swift */; };
+		E3F9C35F20B6651200CE37AF /* CompanyRegisterSuccessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F9C35E20B6651200CE37AF /* CompanyRegisterSuccessView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -631,6 +641,16 @@
 		E3C58F0C20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMessageButtonTableViewCell.swift; sourceTree = "<group>"; };
 		E3C58F0D20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonMessageButtonTableViewCell.xib; sourceTree = "<group>"; };
 		E3F9C34320B63A7600CE37AF /* PersonMessageMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMessageMode.swift; sourceTree = "<group>"; };
+		E3F9C34620B6483600CE37AF /* CompanyRegisterDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyRegisterDataController.swift; sourceTree = "<group>"; };
+		E3F9C34920B6486900CE37AF /* CompanyRegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyRegisterModel.swift; sourceTree = "<group>"; };
+		E3F9C35020B6496000CE37AF /* CompanyRegisterPhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyRegisterPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		E3F9C35120B6496000CE37AF /* CompanyRegisterPhotoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyRegisterPhotoTableViewCell.xib; sourceTree = "<group>"; };
+		E3F9C35420B6497900CE37AF /* CompanyRegisterInputTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyRegisterInputTableViewCell.swift; sourceTree = "<group>"; };
+		E3F9C35520B6497900CE37AF /* CompanyRegisterInputTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyRegisterInputTableViewCell.xib; sourceTree = "<group>"; };
+		E3F9C35820B6499400CE37AF /* CompanyRegisterTipTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyRegisterTipTableViewCell.swift; sourceTree = "<group>"; };
+		E3F9C35920B6499400CE37AF /* CompanyRegisterTipTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyRegisterTipTableViewCell.xib; sourceTree = "<group>"; };
+		E3F9C35C20B6650800CE37AF /* CompanyRegisterSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyRegisterSuccessView.swift; sourceTree = "<group>"; };
+		E3F9C35E20B6651200CE37AF /* CompanyRegisterSuccessView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompanyRegisterSuccessView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1428,6 +1448,7 @@
 		E342A7FD20B501A300699CAF /* cell */ = {
 			isa = PBXGroup;
 			children = (
+				E3F9C34B20B6491300CE37AF /* 企业注册cell */,
 				E3C58EFF20B5877A001BEBB7 /* 个人信息完善cell */,
 				E342A7FE20B501A300699CAF /* 确认登陆cell */,
 				E342A80120B501A300699CAF /* 显示子女 */,
@@ -1486,6 +1507,7 @@
 		E342A80D20B501A300699CAF /* model */ = {
 			isa = PBXGroup;
 			children = (
+				E3F9C34820B6485100CE37AF /* 企业注册model */,
 				E3F9C34520B63A8000CE37AF /* 个人信息完善model */,
 				E342A80E20B501A300699CAF /* 显示子女或学校后确定model */,
 				E342A81020B501A300699CAF /* 绑定账号model */,
@@ -1902,6 +1924,8 @@
 			children = (
 				E3C2978C20B5512D0067FF54 /* CodeSuccessView.swift */,
 				E3C2978E20B551380067FF54 /* CodeSuccessView.xib */,
+				E3F9C35C20B6650800CE37AF /* CompanyRegisterSuccessView.swift */,
+				E3F9C35E20B6651200CE37AF /* CompanyRegisterSuccessView.xib */,
 			);
 			path = Tip;
 			sourceTree = "<group>";
@@ -1928,6 +1952,7 @@
 		E3C2979A20B565B20067FF54 /* 企业注册 */ = {
 			isa = PBXGroup;
 			children = (
+				E3F9C34620B6483600CE37AF /* CompanyRegisterDataController.swift */,
 				E3C2979B20B565C40067FF54 /* CompanyRegisterViewController.swift */,
 				E3C2979C20B565C40067FF54 /* CompanyRegisterViewController.xib */,
 			);
@@ -1965,6 +1990,27 @@
 				E3F9C34320B63A7600CE37AF /* PersonMessageMode.swift */,
 			);
 			path = "个人信息完善model";
+			sourceTree = "<group>";
+		};
+		E3F9C34820B6485100CE37AF /* 企业注册model */ = {
+			isa = PBXGroup;
+			children = (
+				E3F9C34920B6486900CE37AF /* CompanyRegisterModel.swift */,
+			);
+			path = "企业注册model";
+			sourceTree = "<group>";
+		};
+		E3F9C34B20B6491300CE37AF /* 企业注册cell */ = {
+			isa = PBXGroup;
+			children = (
+				E3F9C35420B6497900CE37AF /* CompanyRegisterInputTableViewCell.swift */,
+				E3F9C35520B6497900CE37AF /* CompanyRegisterInputTableViewCell.xib */,
+				E3F9C35020B6496000CE37AF /* CompanyRegisterPhotoTableViewCell.swift */,
+				E3F9C35120B6496000CE37AF /* CompanyRegisterPhotoTableViewCell.xib */,
+				E3F9C35820B6499400CE37AF /* CompanyRegisterTipTableViewCell.swift */,
+				E3F9C35920B6499400CE37AF /* CompanyRegisterTipTableViewCell.xib */,
+			);
+			path = "企业注册cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2079,12 +2125,15 @@
 				E342AC2E20B501A500699CAF /* MineViewController.xib in Resources */,
 				E342AC5720B501A500699CAF /* ConfirmLoginPwdTableViewCell.xib in Resources */,
 				E3C58F0F20B592B8001BEBB7 /* PersonMessageButtonTableViewCell.xib in Resources */,
+				E3F9C35F20B6651200CE37AF /* CompanyRegisterSuccessView.xib in Resources */,
 				E342AC9120B501A500699CAF /* SelectMultipleStudentViewController.xib in Resources */,
 				E342AC4220B501A500699CAF /* UpdatePasswordViewController.xib in Resources */,
 				E342ABE020B501A400699CAF /* HSRightBarButtonItemMenu示例代码.rtf in Resources */,
 				E342ABED20B501A400699CAF /* ShakeView.xib in Resources */,
 				E342AC4020B501A500699CAF /* MineSelectStudentViewController.xib in Resources */,
+				E3F9C35B20B6499400CE37AF /* CompanyRegisterTipTableViewCell.xib in Resources */,
 				E342AC7F20B501A500699CAF /* BindPhoneFirstViewController.xib in Resources */,
+				E3F9C35720B6497900CE37AF /* CompanyRegisterInputTableViewCell.xib in Resources */,
 				E3C2979920B565A50067FF54 /* PersonRegisterViewController.xib in Resources */,
 				E342AC6320B501A500699CAF /* ConfirmLoginView.xib in Resources */,
 				E342AC2420B501A500699CAF /* MineLogoutTableViewCell.xib in Resources */,
@@ -2125,6 +2174,7 @@
 				E342AC7A20B501A500699CAF /* ChangeAreaCollectionViewCell.xib in Resources */,
 				E3C2979E20B565C40067FF54 /* CompanyRegisterViewController.xib in Resources */,
 				E342AC8620B501A500699CAF /* SettingNewPasswordViewController.xib in Resources */,
+				E3F9C35320B6496000CE37AF /* CompanyRegisterPhotoTableViewCell.xib in Resources */,
 				E342ACA020B501A500699CAF /* ApplyViewControllerCollectionViewCell.xib in Resources */,
 				E3429EDE20B4FE6500699CAF /* Assets.xcassets in Resources */,
 				E342AC7520B501A500699CAF /* SelectAreaPopupView.xib in Resources */,
@@ -2263,6 +2313,7 @@
 				E342ABF120B501A500699CAF /* ShadowUtil.swift in Sources */,
 				E342AEC320B501A600699CAF /* MyConfig.swift in Sources */,
 				E342AEB820B501A600699CAF /* BaseOnlyClassDataModel.swift in Sources */,
+				E3F9C35620B6497900CE37AF /* CompanyRegisterInputTableViewCell.swift in Sources */,
 				E342AC4C20B501A500699CAF /* MineAddStudentViewController.swift in Sources */,
 				E342AED720B501A600699CAF /* UIAlertView+LH.m in Sources */,
 				E342AEBF20B501A600699CAF /* BaseNavigationViewController.swift in Sources */,
@@ -2321,6 +2372,7 @@
 				E342AC9520B501A500699CAF /* MyCell.swift in Sources */,
 				E342ABE820B501A400699CAF /* DropListView.swift in Sources */,
 				E342AECE20B501A600699CAF /* UIViewController+LH.swift in Sources */,
+				E3F9C35D20B6650800CE37AF /* CompanyRegisterSuccessView.swift in Sources */,
 				E342AEBE20B501A600699CAF /* BaseViewController.swift in Sources */,
 				E342AEB920B501A600699CAF /* BaseModel.swift in Sources */,
 				E342AEBC20B501A600699CAF /* BaseAreaListDataModel.swift in Sources */,
@@ -2340,7 +2392,9 @@
 				E342ABC620B501A400699CAF /* LRSwitchStudentView.swift in Sources */,
 				E342AC5820B501A500699CAF /* ConfirmLoginPwdTableViewCell.swift in Sources */,
 				E342AC2F20B501A500699CAF /* MineViewController.swift in Sources */,
+				E3F9C35A20B6499400CE37AF /* CompanyRegisterTipTableViewCell.swift in Sources */,
 				E342ABFB20B501A500699CAF /* TYAlertFadeAnimation.m in Sources */,
+				E3F9C35220B6496000CE37AF /* CompanyRegisterPhotoTableViewCell.swift in Sources */,
 				E342AEB720B501A600699CAF /* BaseDataController.swift in Sources */,
 				E342AC3020B501A500699CAF /* MineDataController.swift in Sources */,
 				E342AC8B20B501A500699CAF /* ForgetPwdDataController.swift in Sources */,
@@ -2366,6 +2420,7 @@
 				E342AED420B501A600699CAF /* NSDictionary+LH.m in Sources */,
 				E342ABEC20B501A400699CAF /* ShakeView.swift in Sources */,
 				E342AC5920B501A500699CAF /* BindAccountShowStudentsTableViewCell.swift in Sources */,
+				E3F9C34720B6483600CE37AF /* CompanyRegisterDataController.swift in Sources */,
 				E342ABF420B501A500699CAF /* XHLTagLabelsLayout.m in Sources */,
 				E342AC0C20B501A500699CAF /* LHHTTPClient.swift in Sources */,
 				E342AC8120B501A500699CAF /* LanchImageViewController.swift in Sources */,
@@ -2375,6 +2430,7 @@
 				E342AC4520B501A500699CAF /* MineSelectSchoolViewController.swift in Sources */,
 				E342AC6120B501A500699CAF /* ShowStudentOrSchoolSubmitDataModel.swift in Sources */,
 				E342AEC920B501A600699CAF /* LHAlertView.swift in Sources */,
+				E3F9C34A20B6486900CE37AF /* CompanyRegisterModel.swift in Sources */,
 				E342AEDB20B501A600699CAF /* NSMutableDictionary+LH.m in Sources */,
 				E342AC7020B501A500699CAF /* LoginModel.swift in Sources */,
 				E342AEDD20B501A600699CAF /* UIColor+LH.m in Sources */,

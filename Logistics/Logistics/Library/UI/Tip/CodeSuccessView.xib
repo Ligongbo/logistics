@@ -51,6 +51,9 @@
                 <constraint firstItem="qup-zo-ccD" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="BU9-l4-pvn"/>
                 <constraint firstItem="qup-zo-ccD" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="qQe-b4-aPC"/>
             </constraints>
+            <connections>
+                <outlet property="contentLabel" destination="cix-1C-v6B" id="kKh-wt-C0H"/>
+            </connections>
             <point key="canvasLocation" x="37.5" y="78.5"/>
         </view>
     </objects>

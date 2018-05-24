@@ -44,6 +44,9 @@
                     <constraint firstItem="5I1-Zo-k7G" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="32" id="zht-xp-1Ng"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="confirmBtn" destination="5I1-Zo-k7G" id="aRV-75-6fy"/>
+            </connections>
             <point key="canvasLocation" x="73" y="95.5"/>
         </tableViewCell>
     </objects>

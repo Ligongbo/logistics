@@ -131,6 +131,7 @@ extension SettingNewPasswordViewController{
     }
     @objc func codeTipDismiss(){
         saveView?.hide()
+        timer.invalidate()
     }
 
 }

@@ -17,7 +17,8 @@ class PersonMessageViewController: BaseViewController {
     var assetBack:PHAsset?
     var imageFront:UIImage?
     var imageBack:UIImage?
-    
+    var timer:Timer!
+    var saveView:CodeSuccessView?
     var dataModel:PersonMessageMode = PersonMessageMode()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,8 +33,12 @@ class PersonMessageViewController: BaseViewController {
 extension PersonMessageViewController{
     fileprivate func initData(){
         dataController = PersonMessageDataController(delegate: self)
-       
-        
+        if senderParam != nil{
+            let dic = senderParam as! NSMutableDictionary
+            if dic["phone"] != nil{
+                dataModel.phone = dic["phone"] as! String
+            }
+        }
     }
   
     fileprivate func initUI(){
@@ -81,6 +86,7 @@ extension PersonMessageViewController:UITableViewDelegate,UITableViewDataSource{
             if indexPath.row == 1{
                 cell.update(key: "姓        名：", value: dataModel.realName, placeholder: "请输入您的真实姓名", limit: 20,model: dataModel)
             }else if indexPath.row == 2{
+                cell.valueTextField.isEnabled = false
                 cell.update(key: "电        话：", value: dataModel.phone, placeholder: "请输入常用电话", limit: 11,model: dataModel)
             }else if indexPath.row == 3{
                 cell.update(key: "身份证号：", value: dataModel.idCard, placeholder: "请输入身份证号", limit: 18,model: dataModel)
@@ -165,12 +171,38 @@ extension PersonMessageViewController:TZImagePickerControllerDelegate,PersonMess
         
     }
     func personMessageFinishProtocol() {
-        print(dataModel.realName)
-        if checkFun(){
-            
-        }
+        
+//        if checkFun(){
+        showSuccess()
+//        let tabbarVC = BaseTabBarViewController()
+//        UIApplication.shared.keyWindow?.rootViewController = tabbarVC
+//        UIApplication.shared.keyWindow?.makeKeyAndVisible()
+//        UIApplication.shared.keyWindow?.layer.add(CATransition.animationWithType(.push, direction: .top), forKey: nil)
+//        }
+        
         
     }
+    func showSuccess(){
+        saveView = UIView.loadViewWithName("CodeSuccessView") as? CodeSuccessView
+        
+        saveView?.frame = CGRect(x: 0, y: 0, width: 200, height: 160 )
+        saveView?.clipsToBounds = true
+        saveView?.layer.cornerRadius = 5
+        saveView?.contentLabel.text = "注册个人信息成功!\n等待管理员审核!"
+        saveView?.showInWindow()
+        
+        // 启用计时器，控制每秒执行一次tickDown方法
+        timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(codeTipDismiss), userInfo: nil, repeats: false)
+    }
+    @objc func codeTipDismiss(){
+        saveView?.hide()
+        timer.invalidate()
+        let tabbarVC = BaseTabBarViewController()
+        UIApplication.shared.keyWindow?.rootViewController = tabbarVC
+        UIApplication.shared.keyWindow?.makeKeyAndVisible()
+        UIApplication.shared.keyWindow?.layer.add(CATransition.animationWithType(.push, direction: .top), forKey: nil)
     
+    
+    }
     
 }

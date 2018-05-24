@@ -9,7 +9,8 @@
 import UIKit
 
 class PersonRegisterViewController: BaseViewController {
-
+    @IBOutlet weak var companyAccountView: UIView!
+    
     var timer:Timer!
     //密码
     @IBOutlet weak var passwordTextField: UITextField!
@@ -59,6 +60,13 @@ extension PersonRegisterViewController{
     }
     fileprivate func initData(){
         dataController = PersonRegisterDataController(delegate: self)
+        if senderParam != nil {
+            dataController.type = senderParam as! String
+            if dataController.type == "company"{
+                companyAccountView.removeAllSubviews()
+                companyAccountView.removeFromSuperview()
+            }
+        }
         
     }
 }
@@ -109,7 +117,10 @@ extension PersonRegisterViewController{
     }
     //账号绑定校验验证码
     fileprivate func commonCheckVerCodeByFindPwd(){
-        self.pushViewController("PersonMessageViewController")
+        let dic:NSMutableDictionary = [
+            "phone":userNameTextField.text
+        ]
+        self.pushViewController("PersonMessageViewController",sender:dic)
         //        let parameter:NSMutableDictionary = [
         //            "phone":phoneTextField.text!,
         //

@@ -13,6 +13,7 @@ protocol PersonMessageFinishProtocol {
 }
 class PersonMessageButtonTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var confirmBtn: UIButton!
     @IBAction func click(_ sender: Any) {
         if delegate != nil{
             delegate.personMessageFinishProtocol()
